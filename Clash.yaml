@@ -195,49 +195,47 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: MO 1 → openitsub.com, server: 45.64.22.55, port: 443, type: trojan, password: NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR, sni: pbvre.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: MO 2 → openitsub.com, server: 45.64.22.23, port: 443, type: trojan, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, sni: reooec.freetrade.link, skip-cert-verify: true, udp: true}
   - {name: unknown 1 → openitsub.com, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
   - {name: unknown 2 → openitsub.com, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, udp: true}
   - {name: unknown 3 → openitsub.com, server: cm.spacez.cloud, port: 30000, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
   - {name: unknown 4 → openitsub.com, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 → openitsub.com, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 1 → openitsub.com, server: 149.56.141.11, port: 443, type: trojan, password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20061, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20007, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20008, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20011, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 14 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 15 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 16 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20014, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 17 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20016, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 18 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20056, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 19 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20018, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 2 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: 7D42FE2E-C80C-21BF-FB22-8D5FF45FA175, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 20 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20015, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 21 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 22 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20053, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 23 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20057, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 24 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20054, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 25 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20017, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 26 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20021, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 27 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20023, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 28 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20055, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 29 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20024, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: DC9D4747-CE52-F759-3A35-1EF02463D3E5, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 30 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20027, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 31 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20028, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 32 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20026, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 33 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20059, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 34 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20069, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 35 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20058, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 36 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20067, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 37 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20066, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 38 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20060, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 39 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20025, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20068, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 40 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20022, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20005, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 10 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20015, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 11 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20008, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 12 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20016, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 13 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20017, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 14 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20018, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 15 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20024, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 16 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20027, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 17 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20025, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 18 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20022, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 19 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20028, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 20 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20021, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 21 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20023, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 22 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20069, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 23 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20026, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 24 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20066, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 25 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20056, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 26 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20053, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 27 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 28 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20057, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 29 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20059, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 3 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 30 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20058, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 31 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20055, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 32 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20067, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 33 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20060, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 34 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20054, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 35 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20061, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 36 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: 7D42FE2E-C80C-21BF-FB22-8D5FF45FA175, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 37 → openitsub.com, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: DC9D4747-CE52-F759-3A35-1EF02463D3E5, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 38 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20007, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 39 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20068, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 4 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20006, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 40 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 41 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 42 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 43 → openitsub.com, server: aliyun.install04.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -247,36 +245,32 @@ proxies:
   - {name: 🇨🇳 CN 47 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 48 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 49 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9021, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 5 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20003, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 5 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 50 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: 🇨🇳 CN 6 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 7 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20002, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 8 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20005, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20006, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 6 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20002, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 7 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 8 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20011, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 9 → openitsub.com, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20014, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW 1 → openitsub.com, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: 🇨🇳 TW 2 → openitsub.com, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, udp: true}
   - {name: 🇨🇳 TW 3 → openitsub.com, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, udp: true}
   - {name: 🇨🇳 TW 4 → openitsub.com, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, udp: true}
   - {name: 🇨🇳 TW 5 → openitsub.com, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, udp: true}
   - {name: 🇨🇳 TW 6 → openitsub.com, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, udp: true}
-  - {name: 🇩🇪 DE 1 → openitsub.com, server: 141.94.76.177, port: 443, type: trojan, password: 6e3b4240-38f9-4321-9b3c-bc669a34b848, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE 2 → openitsub.com, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 1 → openitsub.com, server: ukt1.sshocean.net, port: 443, type: trojan, password: 0f5e6d9a-49af-4bc0-b04b-503102382144, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 2 → openitsub.com, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 1 → openitsub.com, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 2 → openitsub.com, server: 141.94.76.177, port: 443, type: trojan, password: 6e3b4240-38f9-4321-9b3c-bc669a34b848, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 1 → openitsub.com, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 2 → openitsub.com, server: ukt1.sshocean.net, port: 443, type: trojan, password: 0f5e6d9a-49af-4bc0-b04b-503102382144, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 3 → openitsub.com, server: content-provider12.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 4 → openitsub.com, server: content-provider26.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 1 → openitsub.com, server: 219.76.13.180, port: 443, type: trojan, password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0, sni: stutter.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 2 → openitsub.com, server: 219.76.13.181, port: 443, type: trojan, password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ, sni: arbettp.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR 1 → openitsub.com, server: 121.78.213.3, port: 443, type: trojan, password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni: httah.freetrade.link, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 1 → openitsub.com, server: content-provider13.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 2 → openitsub.com, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1 → openitsub.com, server: 139.162.45.139, port: 443, type: trojan, password: FLpONjB2Lb, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → openitsub.com, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2 → openitsub.com, server: 173.82.212.183, port: 945, type: trojan, password: admin, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: 60.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
-  - {name: 🇺🇸 US 5 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
-  - {name: 🇺🇸 US 6 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: 138.2.114.255, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4 → openitsub.com, server: azhj001.xibai6.top, port: 20803, type: trojan, password: ca2345ba-46e7-3991-b1b7-45d18954caf1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
+  - {name: 🇺🇸 US 6 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
+  - {name: 🇺🇸 US 7 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -294,8 +288,6 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - MO 1 → openitsub.com
-      - MO 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
       - unknown 3 → openitsub.com
@@ -363,12 +355,7 @@ proxy-groups:
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
       - 🇫🇷 FR 3 → openitsub.com
-      - 🇫🇷 FR 4 → openitsub.com
-      - 🇭🇰 HK 1 → openitsub.com
-      - 🇭🇰 HK 2 → openitsub.com
-      - 🇰🇷 KR 1 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
@@ -376,14 +363,13 @@ proxy-groups:
       - 🇺🇸 US 4 → openitsub.com
       - 🇺🇸 US 5 → openitsub.com
       - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 US 7 → openitsub.com
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - MO 1 → openitsub.com
-      - MO 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
       - unknown 3 → openitsub.com
@@ -451,12 +437,7 @@ proxy-groups:
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
       - 🇫🇷 FR 3 → openitsub.com
-      - 🇫🇷 FR 4 → openitsub.com
-      - 🇭🇰 HK 1 → openitsub.com
-      - 🇭🇰 HK 2 → openitsub.com
-      - 🇰🇷 KR 1 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
@@ -464,6 +445,7 @@ proxy-groups:
       - 🇺🇸 US 4 → openitsub.com
       - 🇺🇸 US 5 → openitsub.com
       - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 US 7 → openitsub.com
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -520,8 +502,6 @@ proxy-groups:
       - 🇨🇳 CN 7 → openitsub.com
       - 🇨🇳 CN 8 → openitsub.com
       - 🇨🇳 CN 9 → openitsub.com
-      - 🇭🇰 HK 1 → openitsub.com
-      - 🇭🇰 HK 2 → openitsub.com
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -541,6 +521,7 @@ proxy-groups:
       - 🇺🇸 US 4 → openitsub.com
       - 🇺🇸 US 5 → openitsub.com
       - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 US 7 → openitsub.com
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -566,12 +547,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 KR 1 → openitsub.com
+      - DIRECT
   - name: 🌍 其他地区
     type: select
     proxies:
-      - MO 1 → openitsub.com
-      - MO 2 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇦 CA 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
@@ -629,17 +608,13 @@ proxy-groups:
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
       - 🇫🇷 FR 3 → openitsub.com
-      - 🇫🇷 FR 4 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - MO 1 → openitsub.com
-      - MO 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
       - unknown 3 → openitsub.com
@@ -707,12 +682,7 @@ proxy-groups:
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
       - 🇫🇷 FR 3 → openitsub.com
-      - 🇫🇷 FR 4 → openitsub.com
-      - 🇭🇰 HK 1 → openitsub.com
-      - 🇭🇰 HK 2 → openitsub.com
-      - 🇰🇷 KR 1 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
@@ -720,6 +690,7 @@ proxy-groups:
       - 🇺🇸 US 4 → openitsub.com
       - 🇺🇸 US 5 → openitsub.com
       - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 US 7 → openitsub.com
   - name: 👉 国内网站
     type: select
     proxies:
