@@ -216,29 +216,36 @@ proxies:
   - {name: 🇨🇳 TW 4 → openitsub.com, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, udp: true}
   - {name: 🇨🇳 TW 5 → openitsub.com, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, udp: true}
   - {name: 🇨🇳 TW 6 → openitsub.com, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, udp: true}
+  - {name: 🇩🇪 DE 1 → openitsub.com, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1 → openitsub.com, server: 51.77.71.134, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 2 → openitsub.com, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 3 → openitsub.com, server: content-provider5.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 4 → openitsub.com, server: content-provider26.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1 → openitsub.com, server: ocrb2.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 → openitsub.com, server: dba.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 2 → openitsub.com, server: jp1.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 3 → openitsub.com, server: kr01.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 4 → openitsub.com, server: 49.212.221.47, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 5 → openitsub.com, server: kr1.api-aws.com, port: 443, type: trojan, password: 2e4c54a0-a780-4994-97c0-44eb92857d76, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6 → openitsub.com, server: 153.121.74.146, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 7 → openitsub.com, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 6 → openitsub.com, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 7 → openitsub.com, server: 153.121.74.146, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 1 → openitsub.com, server: content-provider13.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 2 → openitsub.com, server: content-provider24.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1 → openitsub.com, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1 → openitsub.com, server: 139.162.45.139, port: 443, type: trojan, password: FLpONjB2Lb, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → openitsub.com, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → openitsub.com, server: 173.82.212.183, port: 945, type: trojan, password: admin, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: ocrb1.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 → openitsub.com, server: id3tr.jagoan.vip, port: 443, type: trojan, password: vvip-periantara, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → openitsub.com, server: 32.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 → openitsub.com, server: 138.2.113.248, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
-  - {name: 🇺🇸 US 8 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
-  - {name: 🇺🇸 US 9 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
+  - {name: 🇺🇸 US 10 → openitsub.com, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11 → openitsub.com, server: 31.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
+  - {name: 🇺🇸 US 13 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
+  - {name: 🇺🇸 US 14 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
+  - {name: 🇺🇸 US 2 → openitsub.com, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: 173.82.212.183, port: 945, type: trojan, password: admin, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4 → openitsub.com, server: ocrb1.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → openitsub.com, server: id3tr.jagoan.vip, port: 443, type: trojan, password: vvip-periantara, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6 → openitsub.com, server: 32.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7 → openitsub.com, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8 → openitsub.com, server: 152.67.162.166, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9 → openitsub.com, server: 60.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -277,8 +284,11 @@ proxy-groups:
       - 🇨🇳 TW 4 → openitsub.com
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
+      - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
+      - 🇫🇷 FR 3 → openitsub.com
+      - 🇫🇷 FR 4 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
@@ -288,10 +298,14 @@ proxy-groups:
       - 🇯🇵 JP 6 → openitsub.com
       - 🇯🇵 JP 7 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 US 10 → openitsub.com
+      - 🇺🇸 US 11 → openitsub.com
+      - 🇺🇸 US 12 → openitsub.com
+      - 🇺🇸 US 13 → openitsub.com
+      - 🇺🇸 US 14 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -327,8 +341,11 @@ proxy-groups:
       - 🇨🇳 TW 4 → openitsub.com
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
+      - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
+      - 🇫🇷 FR 3 → openitsub.com
+      - 🇫🇷 FR 4 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
@@ -338,10 +355,14 @@ proxy-groups:
       - 🇯🇵 JP 6 → openitsub.com
       - 🇯🇵 JP 7 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 US 10 → openitsub.com
+      - 🇺🇸 US 11 → openitsub.com
+      - 🇺🇸 US 12 → openitsub.com
+      - 🇺🇸 US 13 → openitsub.com
+      - 🇺🇸 US 14 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -386,6 +407,11 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 US 10 → openitsub.com
+      - 🇺🇸 US 11 → openitsub.com
+      - 🇺🇸 US 12 → openitsub.com
+      - 🇺🇸 US 13 → openitsub.com
+      - 🇺🇸 US 14 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -434,11 +460,13 @@ proxy-groups:
       - 🇨🇳 CN 7 → openitsub.com
       - 🇨🇳 CN 8 → openitsub.com
       - 🇨🇳 CN 9 → openitsub.com
+      - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
+      - 🇫🇷 FR 3 → openitsub.com
+      - 🇫🇷 FR 4 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
   - name: 🪜 故障转移
     type: fallback
@@ -467,8 +495,11 @@ proxy-groups:
       - 🇨🇳 TW 4 → openitsub.com
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
+      - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇫🇷 FR 2 → openitsub.com
+      - 🇫🇷 FR 3 → openitsub.com
+      - 🇫🇷 FR 4 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
@@ -478,10 +509,14 @@ proxy-groups:
       - 🇯🇵 JP 6 → openitsub.com
       - 🇯🇵 JP 7 → openitsub.com
       - 🇳🇱 NL 1 → openitsub.com
-      - 🇳🇱 NL 2 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 US 10 → openitsub.com
+      - 🇺🇸 US 11 → openitsub.com
+      - 🇺🇸 US 12 → openitsub.com
+      - 🇺🇸 US 13 → openitsub.com
+      - 🇺🇸 US 14 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
