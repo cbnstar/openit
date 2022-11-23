@@ -207,11 +207,11 @@ proxies:
   password: G!yBwPWH3Vao
   cipher: chacha20-ietf-poly1305
 - name: "\U0001F1EB\U0001F1F7 FR 30 SSS"
-  server: 149.202.82.172
-  port: 6697
+  server: 195.154.200.150
+  port: 2376
   type: ss
   country: "\U0001F1EB\U0001F1F7 FR"
-  password: TEzjfAYq2IjtuoS
+  password: faBAoD54k87UJG7
   cipher: aes-256-gcm
 - name: "\U0001F1EB\U0001F1F7 FR 31 SSS"
   server: 145.239.1.100
@@ -242,11 +242,11 @@ proxies:
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
 - name: "\U0001F1EB\U0001F1F7 FR 35 SSS"
-  server: 195.154.200.150
-  port: 2376
+  server: 149.202.82.172
+  port: 6697
   type: ss
   country: "\U0001F1EB\U0001F1F7 FR"
-  password: faBAoD54k87UJG7
+  password: TEzjfAYq2IjtuoS
   cipher: aes-256-gcm
 - name: "\U0001F1EC\U0001F1E7 GB 36 SSS"
   server: 78.129.253.9
@@ -262,14 +262,7 @@ proxies:
   country: "\U0001F1F3\U0001F1F1 NL"
   password: PCnnH6SQSnfoS27
   cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 38 SSS"
-  server: 85.208.108.60
-  port: 6679
-  type: ss
-  country: "\U0001F1F3\U0001F1F1 NL"
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 39 SSR"
+- name: "\U0001F1EC\U0001F1E7 GB 38 SSR"
   server: 94.102.57.163
   port: 11708
   type: ssr
@@ -280,6 +273,13 @@ proxies:
   protocol_param: WWW.YOUNEED.WIN
   obfs: http_simple
   obfs_param: WWW.YOUNEED.WIN
+- name: "\U0001F1FA\U0001F1F8 US 39 SSS"
+  server: 38.114.114.19
+  port: 443
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 40 SSS"
   server: 38.64.138.145
   port: 8080
@@ -288,110 +288,111 @@ proxies:
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 41 SSS"
-  server: 38.114.114.19
-  port: 443
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 42 SSS"
   server: 167.88.61.175
   port: 8080
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 43 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 42 SSS"
   server: 38.121.43.71
   port: 8882
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: kDWvXYZoTBcGkC4
   cipher: aes-256-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 44 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 43 SSS"
   server: 172.99.190.39
   port: 5500
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 45 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 44 SSS"
   server: 38.121.43.71
   port: 8119
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 46 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 45 SSS"
   server: 167.88.63.79
   port: 3306
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 47 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 46 SSS"
   server: 38.68.135.18
   port: 5500
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 48 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 47 SSS"
   server: 38.114.114.67
   port: 6697
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: TEzjfAYq2IjtuoS
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 49 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 48 SSS"
   server: 38.75.136.21
   port: 8080
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 50 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 49 SSS"
   server: 172.99.190.39
   port: 5003
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 51 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 50 SSS"
   server: 38.75.136.21
   port: 5001
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 52 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 51 SSS"
   server: 38.114.114.19
   port: 5601
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 53 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 52 SSS"
   server: 38.143.66.99
   port: 5001
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 54 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 53 SSS"
   server: 38.143.66.99
   port: 8118
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 55 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 54 SSS"
   server: 38.75.136.21
   port: 5003
   type: ss
   country: "\U0001F1FA\U0001F1F8 US"
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
+- name: "\U0001F1F0\U0001F1F7 KR 55 TJN"
+  server: kr05.wangxd.life
+  port: 3052
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1E6 CA 56 SSS"
   server: 134.195.196.149
   port: 7307
@@ -1661,7 +1662,7 @@ proxies:
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 225 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 225 TJN"
   server: ru.iamnotagoodman.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -1733,7 +1734,7 @@ proxies:
   password: f8d19ba5-8684-45f2-8523-77dbea588955
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 234 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 234 TJN"
   server: usa.liangyuandian.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -2008,7 +2009,7 @@ proxies:
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 269 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 269 TJN"
   server: usa.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2016,7 +2017,7 @@ proxies:
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 270 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 270 TJN"
   server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2040,7 +2041,7 @@ proxies:
   password: b341f309-7e2b-45c4-a316-9e23037e3711
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 273 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 273 TJN"
   server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2048,7 +2049,7 @@ proxies:
   password: 192a5fc9-2baa-4043-8655-d840d370cb86
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 274 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 274 TJN"
   server: sg.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2056,7 +2057,7 @@ proxies:
   password: 192a5fc9-2baa-4043-8655-d840d370cb86
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 275 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 275 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2064,7 +2065,7 @@ proxies:
   password: 192a5fc9-2baa-4043-8655-d840d370cb86
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 276 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 276 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2072,7 +2073,7 @@ proxies:
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 277 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 277 TJN"
   server: sg.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2096,7 +2097,7 @@ proxies:
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 280 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 280 TJN"
   server: sg.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2104,7 +2105,7 @@ proxies:
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 281 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 281 TJN"
   server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -2542,7 +2543,7 @@ proxies:
   port: 5003
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 341 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 341 TJN"
   server: jp.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -2774,7 +2775,7 @@ proxies:
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 370 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 370 TJN"
   server: lux.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -2814,7 +2815,7 @@ proxies:
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 375 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 375 TJN"
   server: lux.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -2838,7 +2839,7 @@ proxies:
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 378 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 378 TJN"
   server: ar.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -3929,7 +3930,7 @@ proxies:
   password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 523 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 523 TJN"
   server: usa.liangyuandian.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -3945,7 +3946,7 @@ proxies:
   password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 525 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 525 TJN"
   server: sg.iamnotagoodman.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -3985,7 +3986,7 @@ proxies:
   password: 1a283480-59e2-408a-99cb-dbbb6902a7ff
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 530 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 530 TJN"
   server: ru.iamnotagoodman.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -4358,7 +4359,7 @@ proxies:
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 578 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 578 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4374,7 +4375,7 @@ proxies:
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 580 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 580 TJN"
   server: de.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4382,7 +4383,7 @@ proxies:
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 581 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 581 TJN"
   server: usa.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4398,7 +4399,7 @@ proxies:
   password: 192a5fc9-2baa-4043-8655-d840d370cb86
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 583 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 583 TJN"
   server: de.iamnotagoodman.com
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4406,7 +4407,7 @@ proxies:
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 584 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 584 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4414,7 +4415,7 @@ proxies:
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 585 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 585 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4422,7 +4423,7 @@ proxies:
   password: b341f309-7e2b-45c4-a316-9e23037e3711
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 586 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 586 TJN"
   server: sg.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4430,7 +4431,7 @@ proxies:
   password: 2b2b1b4f-3372-47f7-9f90-26097c7683f9
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 587 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 587 TJN"
   server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4446,7 +4447,7 @@ proxies:
   password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 589 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 589 TJN"
   server: ca.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4462,7 +4463,7 @@ proxies:
   password: FLpONjB2Lb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 591 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 591 TJN"
   server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -4470,7 +4471,7 @@ proxies:
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 592 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 592 TJN"
   server: sg.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -5036,7 +5037,7 @@ proxies:
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 668 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 668 TJN"
   server: ap.liangyuandian.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -5076,7 +5077,7 @@ proxies:
   password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 673 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 673 TJN"
   server: lux.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -5124,7 +5125,7 @@ proxies:
   password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 679 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 679 TJN"
   server: de.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -5196,7 +5197,7 @@ proxies:
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 688 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 688 TJN"
   server: kh.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -5204,7 +5205,7 @@ proxies:
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 689 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 689 TJN"
   server: usla.iamnotagoodman.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -5378,7 +5379,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 712 SSR"
   server: mysql.accessconnect.cc
-  port: 6009
+  port: 6006
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -5389,7 +5390,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 713 SSR"
   server: mysql.accessconnect.cc
-  port: 6016
+  port: 6010
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -5400,7 +5401,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 714 SSR"
   server: mysql.accessconnect.cc
-  port: 6019
+  port: 6022
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -5411,9 +5412,9 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 715 SSR"
   server: mysql.accessconnect.cc
-  port: 6021
+  port: 6018
   type: ssr
-  cipher: chacha20-ietf
+  cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -5422,18 +5423,18 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 716 SSR"
   server: mysql.accessconnect.cc
-  port: 6017
+  port: 6015
   type: ssr
-  cipher: rc4-md5
+  cipher: chacha20-ietf
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 717 SSR"
   server: mysql.accessconnect.cc
-  port: 6007
+  port: 6021
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -5444,7 +5445,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 718 SSR"
   server: mysql.accessconnect.cc
-  port: 6001
+  port: 6011
   type: ssr
   cipher: rc4-md5
   password: di15PV
@@ -5455,9 +5456,9 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 719 SSR"
   server: mysql.accessconnect.cc
-  port: 6011
+  port: 6012
   type: ssr
-  cipher: rc4-md5
+  cipher: chacha20-ietf
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -5465,160 +5466,6 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 720 SSR"
-  server: mysql.accessconnect.cc
-  port: 6014
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 721 SSR"
-  server: mysql.accessconnect.cc
-  port: 6002
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 722 SSR"
-  server: mysql.accessconnect.cc
-  port: 6013
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 723 SSR"
-  server: oracle.accessconnect.cc
-  port: 520
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 724 SSR"
-  server: mysql.accessconnect.cc
-  port: 699
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 725 SSR"
-  server: mysql.accessconnect.cc
-  port: 1002
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 726 SSR"
-  server: mysql.accessconnect.cc
-  port: 1001
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 727 SSR"
-  server: mysql.accessconnect.cc
-  port: 6302
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 728 SSR"
-  server: mysql.accessconnect.cc
-  port: 1004
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 729 SSR"
-  server: mysql.accessconnect.cc
-  port: 6301
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 730 SSR"
-  server: mysql.accessconnect.cc
-  port: 1003
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 731 SSR"
-  server: mysql.accessconnect.cc
-  port: 6304
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 732 SSR"
-  server: mysql.accessconnect.cc
-  port: 6303
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 733 SSR"
-  server: mysql.accessconnect.cc
-  port: 3725
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 734 SSR"
   server: mysql.accessconnect.cc
   port: 6008
   type: ssr
@@ -5629,117 +5476,29 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 735 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 721 SSR"
   server: mysql.accessconnect.cc
-  port: 3201
+  port: 6019
   type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 736 SSR"
-  server: mysql.accessconnect.cc
-  port: 3202
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 737 SSR"
-  server: mysql.accessconnect.cc
-  port: 3211
-  type: ssr
-  cipher: rc4-md5
+  cipher: chacha20-ietf
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 738 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 722 SSR"
   server: mysql.accessconnect.cc
-  port: 3209
+  port: 6014
   type: ssr
-  cipher: rc4-md5
+  cipher: chacha20-ietf
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 739 SSR"
-  server: mysql.accessconnect.cc
-  port: 3210
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 740 SSR"
-  server: mysql.accessconnect.cc
-  port: 3203
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 741 SSR"
-  server: mysql.accessconnect.cc
-  port: 6102
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 742 SSR"
-  server: mysql.accessconnect.cc
-  port: 3204
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 743 SSR"
-  server: mysql.accessconnect.cc
-  port: 3212
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 744 SSR"
-  server: sql.accessconnect.cc
-  port: 1105
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 745 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 723 SSR"
   server: mysql.accessconnect.cc
   port: 6003
   type: ssr
@@ -5750,20 +5509,9 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 746 SSR"
-  server: sql.accessconnect.cc
-  port: 1097
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 747 SSR"
-  server: sql.accessconnect.cc
-  port: 2002
+- name: "\U0001F1E8\U0001F1F3 CN 724 SSR"
+  server: mysql.accessconnect.cc
+  port: 1004
   type: ssr
   cipher: rc4-md5
   password: di15PV
@@ -5772,9 +5520,53 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 748 SSR"
-  server: sql.accessconnect.cc
-  port: 1113
+- name: "\U0001F1E8\U0001F1F3 CN 725 SSR"
+  server: mysql.accessconnect.cc
+  port: 1001
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 726 SSR"
+  server: mysql.accessconnect.cc
+  port: 6301
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 727 SSR"
+  server: mysql.accessconnect.cc
+  port: 3201
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 728 SSR"
+  server: mysql.accessconnect.cc
+  port: 6302
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 729 SSR"
+  server: mysql.accessconnect.cc
+  port: 6305
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5783,9 +5575,20 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 749 SSR"
-  server: sql.accessconnect.cc
-  port: 2103
+- name: "\U0001F1E8\U0001F1F3 CN 730 SSR"
+  server: mysql.accessconnect.cc
+  port: 3202
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 731 SSR"
+  server: mysql.accessconnect.cc
+  port: 3726
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5794,9 +5597,9 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 750 SSR"
-  server: sql.accessconnect.cc
-  port: 2107
+- name: "\U0001F1E8\U0001F1F3 CN 732 SSR"
+  server: mysql.accessconnect.cc
+  port: 6304
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5805,9 +5608,53 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 751 SSR"
-  server: sql.accessconnect.cc
-  port: 2105
+- name: "\U0001F1E8\U0001F1F3 CN 733 SSR"
+  server: mysql.accessconnect.cc
+  port: 1002
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 734 SSR"
+  server: mysql.accessconnect.cc
+  port: 6007
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 735 SSR"
+  server: mysql.accessconnect.cc
+  port: 3210
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 736 SSR"
+  server: mysql.accessconnect.cc
+  port: 3204
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 737 SSR"
+  server: mysql.accessconnect.cc
+  port: 6101
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5816,7 +5663,62 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 752 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 738 SSR"
+  server: mysql.accessconnect.cc
+  port: 6303
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 739 SSR"
+  server: mysql.accessconnect.cc
+  port: 3212
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 740 SSR"
+  server: mysql.accessconnect.cc
+  port: 3725
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 741 SSR"
+  server: mysql.accessconnect.cc
+  port: 3211
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 742 SSR"
+  server: mysql.accessconnect.cc
+  port: 3203
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 743 SSR"
   server: sql.accessconnect.cc
   port: 1114
   type: ssr
@@ -5827,11 +5729,110 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 753 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 744 SSR"
   server: sql.accessconnect.cc
-  port: 2110
+  port: 1113
   type: ssr
   cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 745 SSR"
+  server: mysql.accessconnect.cc
+  port: 6001
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 746 SSR"
+  server: sql.accessconnect.cc
+  port: 2107
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 747 SSR"
+  server: sql.accessconnect.cc
+  port: 2003
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 748 SSR"
+  server: sql.accessconnect.cc
+  port: 2101
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 749 SSR"
+  server: sql.accessconnect.cc
+  port: 2102
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 750 SSR"
+  server: sql.accessconnect.cc
+  port: 2103
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 751 SSR"
+  server: sql.accessconnect.cc
+  port: 1105
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 752 SSR"
+  server: sql.accessconnect.cc
+  port: 2002
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 753 SSR"
+  server: sql.accessconnect.cc
+  port: 1097
+  type: ssr
+  cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -5851,7 +5852,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 755 SSR"
   server: sql.accessconnect.cc
-  port: 2106
+  port: 2105
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5861,19 +5862,19 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 756 SSR"
-  server: mysql.accessconnect.cc
-  port: 6004
+  server: oobies9f.nodedata.net
+  port: 555
   type: ssr
-  cipher: chacha20-ietf
+  cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 757 SSR"
   server: sql.accessconnect.cc
-  port: 2108
+  port: 2106
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5895,7 +5896,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 759 SSR"
   server: sql.accessconnect.cc
-  port: 2102
+  port: 2110
   type: ssr
   cipher: aes-256-cfb
   password: di15PV
@@ -5906,9 +5907,9 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 760 SSR"
   server: sql.accessconnect.cc
-  port: 2112
+  port: 2108
   type: ssr
-  cipher: chacha20-ietf
+  cipher: aes-256-cfb
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -5916,17 +5917,6 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 761 SSR"
-  server: sql.accessconnect.cc
-  port: 2201
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 762 SSR"
   server: sql.accessconnect.cc
   port: 2111
   type: ssr
@@ -5937,14 +5927,25 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 762 SSR"
+  server: sql.accessconnect.cc
+  port: 2112
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 763 SSR"
   server: sql.accessconnect.cc
-  port: 2202
+  port: 2507
   type: ssr
   cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
@@ -5961,20 +5962,20 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 765 SSR"
   server: sql.accessconnect.cc
-  port: 2303
+  port: 2506
   type: ssr
   cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 766 SSR"
   server: sql.accessconnect.cc
-  port: 2301
+  port: 2604
   type: ssr
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -5982,8 +5983,8 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 767 SSR"
-  server: oobies9f.nodedata.net
-  port: 555
+  server: mysql.accessconnect.cc
+  port: 6017
   type: ssr
   cipher: rc4-md5
   password: di15PV
@@ -5994,7 +5995,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 768 SSR"
   server: sql.accessconnect.cc
-  port: 2302
+  port: 2301
   type: ssr
   cipher: rc4-md5
   password: di15PV
@@ -6005,12 +6006,12 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 769 SSR"
   server: sql.accessconnect.cc
-  port: 2506
+  port: 2601
   type: ssr
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
@@ -6027,20 +6028,20 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 771 SSR"
   server: sql.accessconnect.cc
-  port: 2507
+  port: 2303
   type: ssr
   cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 772 SSR"
   server: sql.accessconnect.cc
-  port: 2604
+  port: 2302
   type: ssr
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -6059,6 +6060,17 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 774 SSR"
+  server: mysql.accessconnect.cc
+  port: 6005
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 199179:j0PqGv
+  obfs-param: c83ba199179.www.gov.hk
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 775 SSR"
   server: sql.accessconnect.cc
   port: 2702
   type: ssr
@@ -6069,20 +6081,9 @@ proxies:
   protocol-param: 199179:j0PqGv
   obfs-param: c83ba199179.www.gov.hk
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 775 SSR"
-  server: mysql.accessconnect.cc
-  port: 6015
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 776 SSR"
   server: mysql.accessconnect.cc
-  port: 6006
+  port: 6004
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -6092,10 +6093,10 @@ proxies:
   obfs-param: c83ba199179.www.gov.hk
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 777 SSR"
-  server: sql.accessconnect.cc
-  port: 1115
+  server: mysql.accessconnect.cc
+  port: 6502
   type: ssr
-  cipher: aes-256-cfb
+  cipher: rc4-md5
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -6115,9 +6116,9 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 779 SSR"
   server: sql.accessconnect.cc
-  port: 2203
+  port: 1115
   type: ssr
-  cipher: rc4-md5
+  cipher: aes-256-cfb
   password: di15PV
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
@@ -6126,106 +6127,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 780 SSR"
   server: mysql.accessconnect.cc
-  port: 6010
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 781 SSR"
-  server: mysql.accessconnect.cc
-  port: 6022
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 782 SSR"
-  server: mysql.accessconnect.cc
-  port: 3726
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 783 SSR"
-  server: sql.accessconnect.cc
-  port: 2101
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 784 SSR"
-  server: mysql.accessconnect.cc
-  port: 6305
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 785 SSR"
-  server: mysql.accessconnect.cc
-  port: 6501
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 786 SSR"
-  server: mysql.accessconnect.cc
-  port: 6005
-  type: ssr
-  cipher: chacha20-ietf
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 787 SSR"
-  server: sql.accessconnect.cc
-  port: 2601
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 788 SSR"
-  server: sql.accessconnect.cc
-  port: 1116
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 199179:j0PqGv
-  obfs-param: c83ba199179.www.gov.hk
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 789 SSR"
-  server: mysql.accessconnect.cc
-  port: 6012
+  port: 6009
   type: ssr
   cipher: chacha20-ietf
   password: di15PV
@@ -6275,24 +6177,24 @@ proxy-groups:
   - "\U0001F1EB\U0001F1F7 FR 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
   - "\U0001F1EF\U0001F1F5 JP 37 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 38 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 39 SSR"
+  - "\U0001F1EC\U0001F1E7 GB 38 SSR"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
   - "\U0001F1FA\U0001F1F8 US 40 SSS"
   - "\U0001F1FA\U0001F1F8 US 41 SSS"
   - "\U0001F1FA\U0001F1F8 US 42 SSS"
-  - "\U0001F1FA\U0001F1F8 US 43 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 44 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 43 SSS"
+  - "\U0001F1FA\U0001F1F8 US 44 SSS"
   - "\U0001F1FA\U0001F1F8 US 45 SSS"
   - "\U0001F1FA\U0001F1F8 US 46 SSS"
   - "\U0001F1FA\U0001F1F8 US 47 SSS"
   - "\U0001F1FA\U0001F1F8 US 48 SSS"
-  - "\U0001F1FA\U0001F1F8 US 49 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 50 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 49 SSS"
+  - "\U0001F1FA\U0001F1F8 US 50 SSS"
   - "\U0001F1FA\U0001F1F8 US 51 SSS"
   - "\U0001F1FA\U0001F1F8 US 52 SSS"
   - "\U0001F1FA\U0001F1F8 US 53 SSS"
   - "\U0001F1FA\U0001F1F8 US 54 SSS"
-  - "\U0001F1FA\U0001F1F8 US 55 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 55 TJN"
   - "\U0001F1E8\U0001F1E6 CA 56 SSS"
   - "\U0001F1E8\U0001F1E6 CA 57 SSS"
   - "\U0001F1EB\U0001F1F7 FR 58 SSS"
@@ -6462,7 +6364,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 222 TJN"
   - "\U0001F1F8\U0001F1EC SG 223 TJN"
   - "\U0001F1ED\U0001F1F0 HK 224 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 225 TJN"
+  - "\U0001F1F8\U0001F1EC SG 225 TJN"
   - "\U0001F1ED\U0001F1F0 HK 226 TJN"
   - "\U0001F1ED\U0001F1F0 HK 227 TJN"
   - "\U0001F1F8\U0001F1EC SG 228 TJN"
@@ -6471,7 +6373,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 231 TJN"
   - "\U0001F1ED\U0001F1F0 HK 232 TJN"
   - "\U0001F1ED\U0001F1F0 HK 233 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 234 TJN"
+  - "\U0001F1F8\U0001F1EC SG 234 TJN"
   - "\U0001F1ED\U0001F1F0 HK 235 TJN"
   - "\U0001F1EE\U0001F1E9 ID 236 TJN"
   - "\U0001F1EF\U0001F1F5 JP 237 TJN"
@@ -6506,19 +6408,19 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 266 TJN"
   - "\U0001F1F8\U0001F1EC SG 267 TJN"
   - "\U0001F1F8\U0001F1EC SG 268 TJN"
-  - "\U0001F1F8\U0001F1EC SG 269 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 270 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 269 TJN"
+  - "\U0001F1F8\U0001F1EC SG 270 TJN"
   - "\U0001F1EF\U0001F1F5 JP 271 TJN"
   - "\U0001F1ED\U0001F1F0 HK 272 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 273 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 274 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 275 TJN"
-  - "\U0001F1F8\U0001F1EC SG 276 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 277 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 273 TJN"
+  - "\U0001F1F8\U0001F1EC SG 274 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 275 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 276 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 277 TJN"
   - "\U0001F1ED\U0001F1F0 HK 278 TJN"
   - "\U0001F1ED\U0001F1F0 HK 279 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 280 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 281 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 280 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 281 TJN"
   - "\U0001F1F8\U0001F1EC SG 282 TJN"
   - "\U0001F1F9\U0001F1FC TW 283 TJN"
   - "\U0001F1F9\U0001F1FC TW 284 TJN"
@@ -6578,7 +6480,7 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 338 SSS"
   - "\U0001F1FA\U0001F1F8 US 339 SSS"
   - "\U0001F1FA\U0001F1F8 US 340 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 341 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 341 TJN"
   - "\U0001F1EE\U0001F1F3 IN 342 TJN"
   - "\U0001F1FA\U0001F1F8 US 343 TJN"
   - "\U0001F1EF\U0001F1F5 JP 344 TJN"
@@ -6607,15 +6509,15 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 367 TJN"
   - "\U0001F1ED\U0001F1F0 HK 368 TJN"
   - "\U0001F1ED\U0001F1F0 HK 369 TJN"
-  - "\U0001F1F8\U0001F1EC SG 370 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 370 TJN"
   - "\U0001F1FA\U0001F1F8 US 371 TJN"
   - "\U0001F1FA\U0001F1F8 US 372 TJN"
   - "\U0001F1FA\U0001F1F8 US 373 TJN"
   - "\U0001F1ED\U0001F1F0 HK 374 TJN"
-  - "\U0001F1F8\U0001F1EC SG 375 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 375 TJN"
   - "\U0001F1EF\U0001F1F5 JP 376 TJN"
   - "\U0001F1ED\U0001F1F0 HK 377 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 378 TJN"
+  - "\U0001F1F8\U0001F1EC SG 378 TJN"
   - "\U0001F1FA\U0001F1F8 US 379 TJN"
   - "\U0001F1FA\U0001F1F8 US 380 TJN"
   - "\U0001F1EE\U0001F1F3 IN 381 TJN"
@@ -6760,14 +6662,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 520 SSS"
   - "\U0001F1F0\U0001F1F7 KR 521 TJN"
   - "\U0001F1EC\U0001F1E7 GB 522 TJN"
-  - "\U0001F1F8\U0001F1EC SG 523 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 523 TJN"
   - "\U0001F1ED\U0001F1F0 HK 524 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 525 TJN"
+  - "\U0001F1F8\U0001F1EC SG 525 TJN"
   - "\U0001F1EF\U0001F1F5 JP 526 TJN"
   - "\U0001F1ED\U0001F1F0 HK 527 TJN"
   - "\U0001F1ED\U0001F1F0 HK 528 TJN"
   - "\U0001F1ED\U0001F1F0 HK 529 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 530 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 530 TJN"
   - "\U0001F1ED\U0001F1F0 HK 531 TJN"
   - "\U0001F1ED\U0001F1F0 HK 532 TJN"
   - "\U0001F1ED\U0001F1F0 HK 533 TJN"
@@ -6815,21 +6717,21 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 575 TJN"
   - "\U0001F1F8\U0001F1EC SG 576 TJN"
   - "\U0001F1F8\U0001F1EC SG 577 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 578 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 578 TJN"
   - "\U0001F1F8\U0001F1EC SG 579 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 580 TJN"
-  - "\U0001F1F8\U0001F1EC SG 581 TJN"
+  - "\U0001F1F8\U0001F1EC SG 580 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 581 TJN"
   - "\U0001F1ED\U0001F1F0 HK 582 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 583 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 584 TJN"
-  - "\U0001F1F8\U0001F1EC SG 585 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 586 TJN"
-  - "\U0001F1F8\U0001F1EC SG 587 TJN"
+  - "\U0001F1F8\U0001F1EC SG 583 TJN"
+  - "\U0001F1F8\U0001F1EC SG 584 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 585 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 586 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 587 TJN"
   - "\U0001F1ED\U0001F1F0 HK 588 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 589 TJN"
+  - "\U0001F1F8\U0001F1EC SG 589 TJN"
   - "\U0001F1F8\U0001F1EC SG 590 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 591 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 592 TJN"
+  - "\U0001F1F8\U0001F1EC SG 591 TJN"
+  - "\U0001F1F8\U0001F1EC SG 592 TJN"
   - "\U0001F1ED\U0001F1F0 HK 593 TJN"
   - "\U0001F1F8\U0001F1EC SG 594 TJN"
   - "\U0001F1F9\U0001F1FC TW 595 TJN"
@@ -6905,18 +6807,18 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 665 TJN"
   - "\U0001F1F8\U0001F1EC SG 666 TJN"
   - "\U0001F1EF\U0001F1F5 JP 667 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 668 TJN"
+  - "\U0001F1F8\U0001F1EC SG 668 TJN"
   - "\U0001F1F0\U0001F1F7 KR 669 TJN"
   - "\U0001F1ED\U0001F1F0 HK 670 TJN"
   - "\U0001F1ED\U0001F1F0 HK 671 TJN"
   - "\U0001F1EF\U0001F1F5 JP 672 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 673 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 673 TJN"
   - "\U0001F1F0\U0001F1F7 KR 674 TJN"
   - "\U0001F1F8\U0001F1EC SG 675 TJN"
   - "\U0001F1F8\U0001F1EC SG 676 TJN"
   - "\U0001F1EE\U0001F1F3 IN 677 TJN"
   - "\U0001F1F0\U0001F1F7 KR 678 TJN"
-  - "\U0001F1F8\U0001F1EC SG 679 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 679 TJN"
   - "\U0001F1F8\U0001F1EC SG 680 TJN"
   - "\U0001F1ED\U0001F1F0 HK 681 TJN"
   - "\U0001F1FA\U0001F1F8 US 682 TJN"
@@ -6925,8 +6827,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 685 TJN"
   - "\U0001F1ED\U0001F1F0 HK 686 TJN"
   - "\U0001F1EE\U0001F1F3 IN 687 TJN"
-  - "\U0001F1F8\U0001F1EC SG 688 TJN"
-  - "\U0001F1F8\U0001F1EC SG 689 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 688 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 689 TJN"
   - "\U0001F1EE\U0001F1F3 IN 690 TJN"
   - "\U0001F1FA\U0001F1F8 US 691 TJN"
   - "\U0001F1FA\U0001F1F8 US 692 TJN"
@@ -6960,7 +6862,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 720 SSR"
   - "\U0001F1E8\U0001F1F3 CN 721 SSR"
   - "\U0001F1E8\U0001F1F3 CN 722 SSR"
-  - "\U0001F1E6\U0001F1FA AU 723 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 723 SSR"
   - "\U0001F1E8\U0001F1F3 CN 724 SSR"
   - "\U0001F1E8\U0001F1F3 CN 725 SSR"
   - "\U0001F1E8\U0001F1F3 CN 726 SSR"
@@ -7018,15 +6920,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 778 SSR"
   - "\U0001F1E8\U0001F1F3 CN 779 SSR"
   - "\U0001F1E8\U0001F1F3 CN 780 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 781 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 782 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 783 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 784 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 785 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 786 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 787 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 788 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 789 SSR"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -7070,24 +6963,24 @@ proxy-groups:
   - "\U0001F1EB\U0001F1F7 FR 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
   - "\U0001F1EF\U0001F1F5 JP 37 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 38 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 39 SSR"
+  - "\U0001F1EC\U0001F1E7 GB 38 SSR"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
   - "\U0001F1FA\U0001F1F8 US 40 SSS"
   - "\U0001F1FA\U0001F1F8 US 41 SSS"
   - "\U0001F1FA\U0001F1F8 US 42 SSS"
-  - "\U0001F1FA\U0001F1F8 US 43 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 44 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 43 SSS"
+  - "\U0001F1FA\U0001F1F8 US 44 SSS"
   - "\U0001F1FA\U0001F1F8 US 45 SSS"
   - "\U0001F1FA\U0001F1F8 US 46 SSS"
   - "\U0001F1FA\U0001F1F8 US 47 SSS"
   - "\U0001F1FA\U0001F1F8 US 48 SSS"
-  - "\U0001F1FA\U0001F1F8 US 49 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 50 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 49 SSS"
+  - "\U0001F1FA\U0001F1F8 US 50 SSS"
   - "\U0001F1FA\U0001F1F8 US 51 SSS"
   - "\U0001F1FA\U0001F1F8 US 52 SSS"
   - "\U0001F1FA\U0001F1F8 US 53 SSS"
   - "\U0001F1FA\U0001F1F8 US 54 SSS"
-  - "\U0001F1FA\U0001F1F8 US 55 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 55 TJN"
   - "\U0001F1E8\U0001F1E6 CA 56 SSS"
   - "\U0001F1E8\U0001F1E6 CA 57 SSS"
   - "\U0001F1EB\U0001F1F7 FR 58 SSS"
@@ -7257,7 +7150,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 222 TJN"
   - "\U0001F1F8\U0001F1EC SG 223 TJN"
   - "\U0001F1ED\U0001F1F0 HK 224 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 225 TJN"
+  - "\U0001F1F8\U0001F1EC SG 225 TJN"
   - "\U0001F1ED\U0001F1F0 HK 226 TJN"
   - "\U0001F1ED\U0001F1F0 HK 227 TJN"
   - "\U0001F1F8\U0001F1EC SG 228 TJN"
@@ -7266,7 +7159,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 231 TJN"
   - "\U0001F1ED\U0001F1F0 HK 232 TJN"
   - "\U0001F1ED\U0001F1F0 HK 233 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 234 TJN"
+  - "\U0001F1F8\U0001F1EC SG 234 TJN"
   - "\U0001F1ED\U0001F1F0 HK 235 TJN"
   - "\U0001F1EE\U0001F1E9 ID 236 TJN"
   - "\U0001F1EF\U0001F1F5 JP 237 TJN"
@@ -7301,19 +7194,19 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 266 TJN"
   - "\U0001F1F8\U0001F1EC SG 267 TJN"
   - "\U0001F1F8\U0001F1EC SG 268 TJN"
-  - "\U0001F1F8\U0001F1EC SG 269 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 270 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 269 TJN"
+  - "\U0001F1F8\U0001F1EC SG 270 TJN"
   - "\U0001F1EF\U0001F1F5 JP 271 TJN"
   - "\U0001F1ED\U0001F1F0 HK 272 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 273 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 274 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 275 TJN"
-  - "\U0001F1F8\U0001F1EC SG 276 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 277 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 273 TJN"
+  - "\U0001F1F8\U0001F1EC SG 274 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 275 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 276 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 277 TJN"
   - "\U0001F1ED\U0001F1F0 HK 278 TJN"
   - "\U0001F1ED\U0001F1F0 HK 279 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 280 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 281 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 280 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 281 TJN"
   - "\U0001F1F8\U0001F1EC SG 282 TJN"
   - "\U0001F1F9\U0001F1FC TW 283 TJN"
   - "\U0001F1F9\U0001F1FC TW 284 TJN"
@@ -7373,7 +7266,7 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 338 SSS"
   - "\U0001F1FA\U0001F1F8 US 339 SSS"
   - "\U0001F1FA\U0001F1F8 US 340 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 341 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 341 TJN"
   - "\U0001F1EE\U0001F1F3 IN 342 TJN"
   - "\U0001F1FA\U0001F1F8 US 343 TJN"
   - "\U0001F1EF\U0001F1F5 JP 344 TJN"
@@ -7402,15 +7295,15 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 367 TJN"
   - "\U0001F1ED\U0001F1F0 HK 368 TJN"
   - "\U0001F1ED\U0001F1F0 HK 369 TJN"
-  - "\U0001F1F8\U0001F1EC SG 370 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 370 TJN"
   - "\U0001F1FA\U0001F1F8 US 371 TJN"
   - "\U0001F1FA\U0001F1F8 US 372 TJN"
   - "\U0001F1FA\U0001F1F8 US 373 TJN"
   - "\U0001F1ED\U0001F1F0 HK 374 TJN"
-  - "\U0001F1F8\U0001F1EC SG 375 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 375 TJN"
   - "\U0001F1EF\U0001F1F5 JP 376 TJN"
   - "\U0001F1ED\U0001F1F0 HK 377 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 378 TJN"
+  - "\U0001F1F8\U0001F1EC SG 378 TJN"
   - "\U0001F1FA\U0001F1F8 US 379 TJN"
   - "\U0001F1FA\U0001F1F8 US 380 TJN"
   - "\U0001F1EE\U0001F1F3 IN 381 TJN"
@@ -7555,14 +7448,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 520 SSS"
   - "\U0001F1F0\U0001F1F7 KR 521 TJN"
   - "\U0001F1EC\U0001F1E7 GB 522 TJN"
-  - "\U0001F1F8\U0001F1EC SG 523 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 523 TJN"
   - "\U0001F1ED\U0001F1F0 HK 524 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 525 TJN"
+  - "\U0001F1F8\U0001F1EC SG 525 TJN"
   - "\U0001F1EF\U0001F1F5 JP 526 TJN"
   - "\U0001F1ED\U0001F1F0 HK 527 TJN"
   - "\U0001F1ED\U0001F1F0 HK 528 TJN"
   - "\U0001F1ED\U0001F1F0 HK 529 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 530 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 530 TJN"
   - "\U0001F1ED\U0001F1F0 HK 531 TJN"
   - "\U0001F1ED\U0001F1F0 HK 532 TJN"
   - "\U0001F1ED\U0001F1F0 HK 533 TJN"
@@ -7610,21 +7503,21 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 575 TJN"
   - "\U0001F1F8\U0001F1EC SG 576 TJN"
   - "\U0001F1F8\U0001F1EC SG 577 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 578 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 578 TJN"
   - "\U0001F1F8\U0001F1EC SG 579 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 580 TJN"
-  - "\U0001F1F8\U0001F1EC SG 581 TJN"
+  - "\U0001F1F8\U0001F1EC SG 580 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 581 TJN"
   - "\U0001F1ED\U0001F1F0 HK 582 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 583 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 584 TJN"
-  - "\U0001F1F8\U0001F1EC SG 585 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 586 TJN"
-  - "\U0001F1F8\U0001F1EC SG 587 TJN"
+  - "\U0001F1F8\U0001F1EC SG 583 TJN"
+  - "\U0001F1F8\U0001F1EC SG 584 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 585 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 586 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 587 TJN"
   - "\U0001F1ED\U0001F1F0 HK 588 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 589 TJN"
+  - "\U0001F1F8\U0001F1EC SG 589 TJN"
   - "\U0001F1F8\U0001F1EC SG 590 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 591 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 592 TJN"
+  - "\U0001F1F8\U0001F1EC SG 591 TJN"
+  - "\U0001F1F8\U0001F1EC SG 592 TJN"
   - "\U0001F1ED\U0001F1F0 HK 593 TJN"
   - "\U0001F1F8\U0001F1EC SG 594 TJN"
   - "\U0001F1F9\U0001F1FC TW 595 TJN"
@@ -7700,18 +7593,18 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 665 TJN"
   - "\U0001F1F8\U0001F1EC SG 666 TJN"
   - "\U0001F1EF\U0001F1F5 JP 667 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 668 TJN"
+  - "\U0001F1F8\U0001F1EC SG 668 TJN"
   - "\U0001F1F0\U0001F1F7 KR 669 TJN"
   - "\U0001F1ED\U0001F1F0 HK 670 TJN"
   - "\U0001F1ED\U0001F1F0 HK 671 TJN"
   - "\U0001F1EF\U0001F1F5 JP 672 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 673 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 673 TJN"
   - "\U0001F1F0\U0001F1F7 KR 674 TJN"
   - "\U0001F1F8\U0001F1EC SG 675 TJN"
   - "\U0001F1F8\U0001F1EC SG 676 TJN"
   - "\U0001F1EE\U0001F1F3 IN 677 TJN"
   - "\U0001F1F0\U0001F1F7 KR 678 TJN"
-  - "\U0001F1F8\U0001F1EC SG 679 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 679 TJN"
   - "\U0001F1F8\U0001F1EC SG 680 TJN"
   - "\U0001F1ED\U0001F1F0 HK 681 TJN"
   - "\U0001F1FA\U0001F1F8 US 682 TJN"
@@ -7720,8 +7613,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 685 TJN"
   - "\U0001F1ED\U0001F1F0 HK 686 TJN"
   - "\U0001F1EE\U0001F1F3 IN 687 TJN"
-  - "\U0001F1F8\U0001F1EC SG 688 TJN"
-  - "\U0001F1F8\U0001F1EC SG 689 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 688 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 689 TJN"
   - "\U0001F1EE\U0001F1F3 IN 690 TJN"
   - "\U0001F1FA\U0001F1F8 US 691 TJN"
   - "\U0001F1FA\U0001F1F8 US 692 TJN"
@@ -7755,7 +7648,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 720 SSR"
   - "\U0001F1E8\U0001F1F3 CN 721 SSR"
   - "\U0001F1E8\U0001F1F3 CN 722 SSR"
-  - "\U0001F1E6\U0001F1FA AU 723 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 723 SSR"
   - "\U0001F1E8\U0001F1F3 CN 724 SSR"
   - "\U0001F1E8\U0001F1F3 CN 725 SSR"
   - "\U0001F1E8\U0001F1F3 CN 726 SSR"
@@ -7813,14 +7706,5 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 778 SSR"
   - "\U0001F1E8\U0001F1F3 CN 779 SSR"
   - "\U0001F1E8\U0001F1F3 CN 780 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 781 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 782 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 783 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 784 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 785 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 786 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 787 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 788 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 789 SSR"
 rules:
 - "MATCH,\U0001F310 Proxy"
