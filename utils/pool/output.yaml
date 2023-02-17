@@ -1320,38 +1320,14 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 190 TJN"
-  server: scloud58.jafiyun.world
-  port: 22058
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud58.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 191 TJN"
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud15.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 192 TJN"
-  server: scloud12.jafiyun.world
-  port: 22012
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud12.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 193 TJN"
   server: sub.xiaohouzi.club
   port: 37093
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: vuus01.xiaohouzi.club
+  sni: '%24%24vuus01.xiaohouzi.club'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 194 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 191 TJN"
   server: v01.gutingting.com
   port: 20224
   type: trojan
@@ -1359,29 +1335,52 @@ proxies:
   sni: v2usa01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 195 TJN"
-  server: hnm.xiaohouzi.club
-  port: 36872
+- name: "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  server: hn.xiaohouzi.club
+  port: 48465
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: freeus.xiaohouzi.club
+  sni: $$vuus05.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 193 TJN"
+  server: hn.xiaohouzi.club
+  port: 46014
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: $$tcus01.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 194 TJN"
+  server: hnm.xiaohouzi.club
+  port: 17106
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: sofia.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 195 TJN"
+  server: h650196.waihuizhibiaowang.com
+  port: 13243
+  type: trojan
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  sni: h650196.waihuizhibiaowang.com
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 196 TJN"
-  server: iplc.xiaohouzi.club
-  port: 20039
+  server: hn.xiaohouzi.club
+  port: 19359
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: azhk02.xiaohouzi.club
+  sni: '%24%24%24%24%24hn.xiaohouzi.club'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 197 TJN"
-  server: hnm.xiaohouzi.club
-  port: 27482
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: $$$hnm.xiaohouzi.club
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 197 SSS"
+  server: 14.29.124.168
+  port: 31046
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 198 SSS"
   server: 180.101.193.226
@@ -1391,69 +1390,99 @@ proxies:
   password: RsDk3peCSuo76B68
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 199 TJN"
-  server: hnm.xiaohouzi.club
-  port: 49353
-  type: trojan
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: a89.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 200 TJN"
   server: v02.gutingting.com
-  port: 30038
+  port: 30006
   type: trojan
   password: 185259d7-e563-43fd-be1b-11600a3b2cfc
   sni: v2hgc02.fuqiangren.com
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 200 TJN"
+  server: v01.gutingting.com
+  port: 30017
+  type: trojan
+  password: 81bc67a4-2271-4115-b32c-208b0c63f2e4
+  sni: v2hgc01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 201 TJN"
   server: hnm.xiaohouzi.club
-  port: 51052
+  port: 49363
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: hkt-pqs01.xiaohouzi.club
+  sni: hnm.xiaohouzi.club
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 202 TJN"
-  server: iplc.xiaohouzi.club
-  port: 20018
+  server: hn.xiaohouzi.club
+  port: 17115
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: aws-hk03.xiaohouzi.club
+  sni: azhk097.xiaohouzi.club
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 203 TJN"
-  server: iplc.xiaohouzi.club
-  port: 20011
+  server: hn.xiaohouzi.club
+  port: 47223
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: iplc011.xiaohouzi.club
+  sni: hk-hkt01.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 204 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 204 TJN"
+  server: hn.xiaohouzi.club
+  port: 19357
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: azhk003.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 205 TJN"
+  server: h961359.waihuizhibiaowang.com
+  port: 13543
+  type: trojan
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  sni: h961359.waihuizhibiaowang.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 206 SSS"
+  server: h649960.waihuizhibiaowang.com
+  port: 15543
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 207 TJN"
+  server: h745768.strongpipe.live
+  port: 13543
+  type: trojan
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  sni: h745768.strongpipe.live
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 208 SSS"
+  server: h745768.strongpipe.live
+  port: 15543
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 209 TJN"
+  server: hn.xiaohouzi.club
+  port: 42541
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: hn.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 210 SSS"
   server: 14.29.124.168
-  port: 24002
+  port: 24009
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 205 TJN"
-  server: scloud29.jafiyun.world
-  port: 22029
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud29.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 206 TJN"
-  server: v01.gutingting.com
-  port: 30002
-  type: trojan
-  password: b6777273-4142-4f35-86a1-9579f683434a
-  sni: v2tw01.fuqiangren.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 207 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 211 TJN"
   server: hnm.xiaohouzi.club
   port: 16082
   type: trojan
@@ -1461,59 +1490,27 @@ proxies:
   sni: $nh-hinet06.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 208 TJN"
-  server: 120.226.39.25
-  port: 19217
-  type: trojan
-  password: 0aa156ed-a3e6-3571-ad3d-c8281b376d5b
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 209 TJN"
-  server: hnm.xiaohouzi.club
-  port: 17107
-  type: trojan
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: $$hnm.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 210 TJN"
-  server: scloud41.jafiyun.world
-  port: 22041
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud41.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 211 TJN"
-  server: scloud42.jafiyun.world
-  port: 22042
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud42.jafiyun.world
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 212 TJN"
-  server: v01.gutingting.com
-  port: 20222
+  server: v02.gutingting.com
+  port: 30003
   type: trojan
-  password: 185259d7-e563-43fd-be1b-11600a3b2cfc
-  sni: v2sg01.fuqiangren.com
+  password: 9a519831-9ca8-4efa-a28d-784005965300
+  sni: v2tw01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 213 TJN"
-  server: v01.gutingting.com
-  port: 30050
-  type: trojan
-  password: b6777273-4142-4f35-86a1-9579f683434a
-  sni: v2sg02.fuqiangren.com
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 213 SSS"
+  server: h745768.strongpipe.live
+  port: 15343
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 214 TJN"
-  server: hnm.xiaohouzi.club
-  port: 36305
+  server: hn.xiaohouzi.club
+  port: 16012
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: vusig02.xiaohouzi.club
+  sni: supsig.xiaohouzi.club
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 215 TJN"
@@ -1524,30 +1521,62 @@ proxies:
   sni: $$$$$$$vusig01.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 216 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 216 TJN"
+  server: v01.gutingting.com
+  port: 20222
+  type: trojan
+  password: 185259d7-e563-43fd-be1b-11600a3b2cfc
+  sni: v2sg01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 217 TJN"
+  server: v01.gutingting.com
+  port: 30050
+  type: trojan
+  password: b6777273-4142-4f35-86a1-9579f683434a
+  sni: v2sg02.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 218 TJN"
+  server: hnm.xiaohouzi.club
+  port: 17107
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: vusig01.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 219 TJN"
+  server: hnm.xiaohouzi.club
+  port: 36305
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: '%24%24hnm.xiaohouzi.club'
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 220 TJN"
   server: osav101.jd0001.top
   port: 44301
   type: trojan
   password: 6abfad5a-24be-3657-85da-ceac782b7e19
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 217 TJN"
-  server: scloud60.jafiyun.world
-  port: 22060
+- name: "\U0001F1E8\U0001F1F3 CN 221 TJN"
+  server: gz01.xiaohouzi.club
+  port: 20091
   type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud60.jafiyun.world
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: '%24%24%24ajpn01.xiaohouzi.club'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 218 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 222 TJN"
   server: v02.gutingting.com
-  port: 30055
+  port: 30054
   type: trojan
-  password: 9a519831-9ca8-4efa-a28d-784005965300
-  sni: v1jp02.fuqiangren.com
+  password: 185259d7-e563-43fd-be1b-11600a3b2cfc
+  sni: v1jp01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 219 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 223 TJN"
   server: v01.gutingting.com
   port: 20221
   type: trojan
@@ -1555,52 +1584,43 @@ proxies:
   sni: v2jp01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 220 TJN"
-  server: scloud59.jafiyun.world
-  port: 22059
+- name: "\U0001F1E8\U0001F1F3 CN 224 SSS"
+  server: h649960.waihuizhibiaowang.com
+  port: 15443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 225 TJN"
+  server: h650196.waihuizhibiaowang.com
+  port: 13743
   type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud59.jafiyun.world
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  sni: h650196.waihuizhibiaowang.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 221 TJN"
-  server: dl.progbyrazyar.ir
-  port: 2096
-  type: trojan
-  password: PSVs6do9zb
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 226 SSS"
+  server: h650196.waihuizhibiaowang.com
+  port: 15743
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 222 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 227 TJN"
   server: r5.safyno.tk
   port: 32935
   type: trojan
   password: OwXaiuJi7H
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 223 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 228 TJN"
   server: uk1.trojanvh.xyz
   port: 80
   type: trojan
-  password: b44579e1-f803-4981-86bc-aa8c783daa04
+  password: b640d791-ff83-4300-b509-c2a02f97f167
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 224 TJN"
-  server: scloud53.jafiyun.world
-  port: 22053
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud53.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 225 TJN"
-  server: scloud54.jafiyun.world
-  port: 22054
-  type: trojan
-  password: d95bd810-fdee-3789-bbf0-b0401aeb4257
-  sni: scloud54.jafiyun.world
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 226 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 229 TJN"
   server: v02.gutingting.com
   port: 20227
   type: trojan
@@ -1608,15 +1628,22 @@ proxies:
   sni: v2uk01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 227 TJN"
-  server: v02.gutingting.com
-  port: 30057
+- name: "\U0001F1E8\U0001F1F3 CN 230 TJN"
+  server: hnm.xiaohouzi.club
+  port: 47552
   type: trojan
-  password: 9a519831-9ca8-4efa-a28d-784005965300
-  sni: v1kr02.fuqiangren.com
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: '%24hnm.xiaohouzi.club'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 228 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 231 SSS"
+  server: h650196.waihuizhibiaowang.com
+  port: 15143
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e01beb5d-9f08-49a4-ba73-6344d0c7d4ab
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 232 TJN"
   server: v01.gutingting.com
   port: 30056
   type: trojan
@@ -1624,22 +1651,39 @@ proxies:
   sni: v1kr01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 229 TJN"
-  server: www.furbbs.top
-  port: 443
+- name: "\U0001F1E8\U0001F1F3 CN 233 TJN"
+  server: v02.gutingting.com
+  port: 30057
   type: trojan
-  password: ef18607c
+  password: 81bc67a4-2271-4115-b32c-208b0c63f2e4
+  sni: v1kr02.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 230 TJN"
-  server: hnm.xiaohouzi.club
-  port: 47551
+- name: "\U0001F1E8\U0001F1F3 CN 234 TJN"
+  server: hn.xiaohouzi.club
+  port: 18441
   type: trojan
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  sni: '%24%24helan01.xiaohouzi.club'
+  sni: vutnkr01.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 231 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 235 TJN"
+  server: hn.xiaohouzi.club
+  port: 18445
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: vutnkr05.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  server: hn.xiaohouzi.club
+  port: 18835
+  type: trojan
+  password: 21e10785-99c6-316e-a184-a03384ee06e5
+  sni: $feilvbin.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 237 TJN"
   server: v02.gutingting.com
   port: 30053
   type: trojan
@@ -1647,15 +1691,23 @@ proxies:
   sni: v2phl01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EA SE 232 TJN"
-  server: 13.51.186.118
-  port: 22222
+- name: "\U0001F1E8\U0001F1F3 CN 238 TJN"
+  server: hn.xiaohouzi.club
+  port: 61005
   type: trojan
-  password: telegram-id-privatevpns
-  sni: trj.rollingnext.co.uk
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: hn.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EA SE 233 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 239 TJN"
+  server: hn.xiaohouzi.club
+  port: 18457
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: aru02.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EA SE 240 TJN"
   server: 13.48.202.26
   port: 22222
   type: trojan
@@ -1663,23 +1715,23 @@ proxies:
   sni: trj.rollingnext.co.uk
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 234 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 241 TJN"
+  server: v02.gutingting.com
+  port: 30052
+  type: trojan
+  password: 81bc67a4-2271-4115-b32c-208b0c63f2e4
+  sni: v2th01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 242 TJN"
   server: hnm.xiaohouzi.club
   port: 47651
   type: trojan
   password: 21e10785-99c6-316e-a184-a03384ee06e5
-  sni: '%24hnm.xiaohouzi.club'
+  sni: $hnm.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 235 TJN"
-  server: v02.gutingting.com
-  port: 30052
-  type: trojan
-  password: 185259d7-e563-43fd-be1b-11600a3b2cfc
-  sni: v2th01.fuqiangren.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 236 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 243 TJN"
   server: v02.gutingting.com
   port: 30051
   type: trojan
@@ -1887,46 +1939,53 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 194 TJN"
   - "\U0001F1E8\U0001F1F3 CN 195 TJN"
   - "\U0001F1E8\U0001F1F3 CN 196 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 197 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 197 SSS"
   - "\U0001F1E8\U0001F1F3 CN 198 SSS"
   - "\U0001F1E8\U0001F1F3 CN 199 TJN"
   - "\U0001F1E8\U0001F1F3 CN 200 TJN"
   - "\U0001F1E8\U0001F1F3 CN 201 TJN"
   - "\U0001F1E8\U0001F1F3 CN 202 TJN"
   - "\U0001F1E8\U0001F1F3 CN 203 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 204 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 204 TJN"
   - "\U0001F1E8\U0001F1F3 CN 205 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 206 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 206 SSS"
   - "\U0001F1E8\U0001F1F3 CN 207 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 208 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 208 SSS"
   - "\U0001F1E8\U0001F1F3 CN 209 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 210 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 210 SSS"
   - "\U0001F1E8\U0001F1F3 CN 211 TJN"
   - "\U0001F1E8\U0001F1F3 CN 212 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 213 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 213 SSS"
   - "\U0001F1E8\U0001F1F3 CN 214 TJN"
   - "\U0001F1E8\U0001F1F3 CN 215 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 216 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 216 TJN"
   - "\U0001F1E8\U0001F1F3 CN 217 TJN"
   - "\U0001F1E8\U0001F1F3 CN 218 TJN"
   - "\U0001F1E8\U0001F1F3 CN 219 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 220 TJN"
-  - "\U0001F1E9\U0001F1EA DE 221 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 222 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 223 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 224 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 220 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 221 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 222 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 223 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 224 SSS"
   - "\U0001F1E8\U0001F1F3 CN 225 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 226 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 227 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 228 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 229 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 226 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 227 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 228 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 229 TJN"
   - "\U0001F1E8\U0001F1F3 CN 230 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 231 TJN"
-  - "\U0001F1F8\U0001F1EA SE 232 TJN"
-  - "\U0001F1F8\U0001F1EA SE 233 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 231 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 232 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 233 TJN"
   - "\U0001F1E8\U0001F1F3 CN 234 TJN"
   - "\U0001F1E8\U0001F1F3 CN 235 TJN"
   - "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 237 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 238 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 239 TJN"
+  - "\U0001F1F8\U0001F1EA SE 240 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 241 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 242 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 243 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2129,45 +2188,52 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 194 TJN"
   - "\U0001F1E8\U0001F1F3 CN 195 TJN"
   - "\U0001F1E8\U0001F1F3 CN 196 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 197 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 197 SSS"
   - "\U0001F1E8\U0001F1F3 CN 198 SSS"
   - "\U0001F1E8\U0001F1F3 CN 199 TJN"
   - "\U0001F1E8\U0001F1F3 CN 200 TJN"
   - "\U0001F1E8\U0001F1F3 CN 201 TJN"
   - "\U0001F1E8\U0001F1F3 CN 202 TJN"
   - "\U0001F1E8\U0001F1F3 CN 203 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 204 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 204 TJN"
   - "\U0001F1E8\U0001F1F3 CN 205 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 206 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 206 SSS"
   - "\U0001F1E8\U0001F1F3 CN 207 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 208 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 208 SSS"
   - "\U0001F1E8\U0001F1F3 CN 209 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 210 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 210 SSS"
   - "\U0001F1E8\U0001F1F3 CN 211 TJN"
   - "\U0001F1E8\U0001F1F3 CN 212 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 213 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 213 SSS"
   - "\U0001F1E8\U0001F1F3 CN 214 TJN"
   - "\U0001F1E8\U0001F1F3 CN 215 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 216 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 216 TJN"
   - "\U0001F1E8\U0001F1F3 CN 217 TJN"
   - "\U0001F1E8\U0001F1F3 CN 218 TJN"
   - "\U0001F1E8\U0001F1F3 CN 219 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 220 TJN"
-  - "\U0001F1E9\U0001F1EA DE 221 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 222 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 223 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 224 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 220 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 221 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 222 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 223 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 224 SSS"
   - "\U0001F1E8\U0001F1F3 CN 225 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 226 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 227 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 228 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 229 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 226 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 227 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 228 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 229 TJN"
   - "\U0001F1E8\U0001F1F3 CN 230 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 231 TJN"
-  - "\U0001F1F8\U0001F1EA SE 232 TJN"
-  - "\U0001F1F8\U0001F1EA SE 233 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 231 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 232 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 233 TJN"
   - "\U0001F1E8\U0001F1F3 CN 234 TJN"
   - "\U0001F1E8\U0001F1F3 CN 235 TJN"
   - "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 237 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 238 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 239 TJN"
+  - "\U0001F1F8\U0001F1EA SE 240 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 241 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 242 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 243 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
