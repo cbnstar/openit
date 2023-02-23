@@ -209,19 +209,15 @@ proxies:
   - {name: unknown 8 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 9 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 → openitsub.com, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1 → openitsub.com, server: awshk3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 2b5e3082-f3b5-43da-a3d1-38bb6ac1bf64, sni: data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10 → openitsub.com, server: v01.gutingting.com, port: 30056, type: trojan, password: 5a30b219-6343-4751-80a8-34b14265bee1, sni: v1kr01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11 → openitsub.com, server: v02.gutingting.com, port: 30052, type: trojan, password: b332ab4e-32c8-43d1-856f-42a6aa7b757d, sni: v2th01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12 → openitsub.com, server: v02.gutingting.com, port: 30057, type: trojan, password: b332ab4e-32c8-43d1-856f-42a6aa7b757d, sni: v1kr02.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: 🇨🇳 CN 2 → openitsub.com, server: v02.gutingting.com, port: 30049, type: trojan, password: 5a30b219-6343-4751-80a8-34b14265bee1, sni: v2sg02.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3 → openitsub.com, server: v02.gutingting.com, port: 30003, type: trojan, password: fb198f72-7efd-47a5-b33a-bf0287e2fd89, sni: v2tw01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4 → openitsub.com, server: v01.gutingting.com, port: 20224, type: trojan, password: b332ab4e-32c8-43d1-856f-42a6aa7b757d, sni: v2usa01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 5 → openitsub.com, server: v01.gutingting.com, port: 30017, type: trojan, password: fb198f72-7efd-47a5-b33a-bf0287e2fd89, sni: v2hgc01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 6 → openitsub.com, server: v02.gutingting.com, port: 20223, type: trojan, password: b332ab4e-32c8-43d1-856f-42a6aa7b757d, sni: v2sg01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 7 → openitsub.com, server: v02.gutingting.com, port: 30055, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v1jp02.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1 → openitsub.com, server: v02.gutingting.com, port: 30055, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v1jp02.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2 → openitsub.com, server: v01.gutingting.com, port: 20221, type: trojan, password: 802385b0-bdfc-4502-a0ed-c14f34ecf27d, sni: v2jp01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 3 → openitsub.com, server: v01.gutingting.com, port: 30056, type: trojan, password: fb198f72-7efd-47a5-b33a-bf0287e2fd89, sni: v1kr01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 4 → openitsub.com, server: v01.gutingting.com, port: 30050, type: trojan, password: fb198f72-7efd-47a5-b33a-bf0287e2fd89, sni: v2sg02.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 5 → openitsub.com, server: v01.gutingting.com, port: 20224, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v2usa01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 6 → openitsub.com, server: v02.gutingting.com, port: 30052, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v2th01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 7 → openitsub.com, server: v01.gutingting.com, port: 30017, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v2hgc01.fuqiangren.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 8 → openitsub.com, server: v02.gutingting.com, port: 30051, type: trojan, password: 565b2ee0-bcdf-4745-bde6-92730d7da314, sni: v2vn01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9 → openitsub.com, server: v01.gutingting.com, port: 20221, type: trojan, password: 5a30b219-6343-4751-80a8-34b14265bee1, sni: v2jp01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 9 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 🇨🇳 TW 1 → openitsub.com, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: 🇨🇳 TW 2 → openitsub.com, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, udp: true}
   - {name: 🇨🇳 TW 3 → openitsub.com, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, udp: true}
@@ -272,10 +268,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
-      - 🇨🇳 CN 10 → openitsub.com
-      - 🇨🇳 CN 11 → openitsub.com
-      - 🇨🇳 CN 12 → openitsub.com
-      - 🇨🇳 CN 13 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -323,10 +315,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
-      - 🇨🇳 CN 10 → openitsub.com
-      - 🇨🇳 CN 11 → openitsub.com
-      - 🇨🇳 CN 12 → openitsub.com
-      - 🇨🇳 CN 13 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -360,10 +348,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 CN 1 → openitsub.com
-      - 🇨🇳 CN 10 → openitsub.com
-      - 🇨🇳 CN 11 → openitsub.com
-      - 🇨🇳 CN 12 → openitsub.com
-      - 🇨🇳 CN 13 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -425,10 +409,6 @@ proxy-groups:
     proxies:
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
-      - 🇨🇳 CN 10 → openitsub.com
-      - 🇨🇳 CN 11 → openitsub.com
-      - 🇨🇳 CN 12 → openitsub.com
-      - 🇨🇳 CN 13 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -461,10 +441,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
-      - 🇨🇳 CN 10 → openitsub.com
-      - 🇨🇳 CN 11 → openitsub.com
-      - 🇨🇳 CN 12 → openitsub.com
-      - 🇨🇳 CN 13 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
