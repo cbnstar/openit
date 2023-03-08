@@ -1100,11 +1100,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 155 TJN"
-  server: 112.47.34.236
-  port: 18810
+  server: hn.xiaohouzi.club
+  port: 46014
   type: trojan
-  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
-  sni: dmit1.passxiaojjdd.top
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: hn.xiaohouzi.club
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 156 TJN"
@@ -1115,15 +1115,22 @@ proxies:
   sni: jp.jike123.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 157 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 157 SSS"
+  server: 14.29.124.168
+  port: 31046
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 158 TJN"
   server: 112.47.34.236
-  port: 18801
+  port: 18802
   type: trojan
   password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
   sni: hkt.portxray.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 158 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 159 TJN"
   server: 223.113.141.195
   port: 57305
   type: trojan
@@ -1131,14 +1138,31 @@ proxies:
   sni: bgphk.portxray.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 159 SSS"
-  server: 14.29.124.168
-  port: 31046
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 160 TJN"
+  server: hnm.xiaohouzi.club
+  port: 27482
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: $$$hnm.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 161 TJN"
+  server: hnm.xiaohouzi.club
+  port: 17109
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: $$$$$hnm.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 162 TJN"
+  server: uns.xiaohouzi.club
+  port: 13328
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: siga01.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 163 TJN"
   server: 112.47.34.236
   port: 18804
   type: trojan
@@ -1146,58 +1170,33 @@ proxies:
   sni: tw2.portxray.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 161 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 164 SSS"
   server: 14.29.124.168
-  port: 24007
+  port: 24002
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 162 TJN"
-  server: 120.226.39.25
-  port: 19216
+- name: "\U0001F1E8\U0001F1F3 CN 165 TJN"
+  server: 222.219.135.41
+  port: 19219
   type: trojan
   password: 0b86d368-f585-3c89-b8b5-30630f54cf15
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  server: cmcc2.zekwes.cn
-  port: 18817
+- name: "\U0001F1E8\U0001F1F3 CN 166 TJN"
+  server: 222.219.135.41
+  port: 19217
   type: trojan
-  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
-  sni: ovh2.zekwes.cn
+  password: 0b86d368-f585-3c89-b8b5-30630f54cf15
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 164 TJN"
-  server: 112.47.34.236
-  port: 18805
-  type: trojan
-  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
-  sni: sgp2.nmcfhpu.cn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 165 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 167 TJN"
   server: cmcc1.zekwes.cn
   port: 18816
   type: trojan
   password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
   sni: ovh1.zekwes.cn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 166 TJN"
-  server: cmcc3.zekwes.cn
-  port: 18818
-  type: trojan
-  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
-  sni: ovh3.zekwes.cn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 167 TJN"
-  server: bj.de-burgh.info
-  port: 23454
-  type: trojan
-  password: 7e0dd540-a57e-3ede-920f-4795f734c001
-  sni: sg.jike123.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 168 TJN"
@@ -1209,6 +1208,30 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 169 TJN"
+  server: cmcc3.zekwes.cn
+  port: 18818
+  type: trojan
+  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
+  sni: ovh3.zekwes.cn
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 170 TJN"
+  server: cmcc2.zekwes.cn
+  port: 18817
+  type: trojan
+  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
+  sni: ovh2.zekwes.cn
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 171 TJN"
+  server: cmcc.zekwes.cn
+  port: 18815
+  type: trojan
+  password: 60d756e3-20e1-4fdc-aa1e-60d288d3a33c
+  sni: ovh.zekwes.cn
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 172 TJN"
   server: pass-ln.zekwes.cn
   port: 18895
   type: trojan
@@ -1216,7 +1239,7 @@ proxies:
   sni: lino3.portxray.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 170 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 173 TJN"
   server: 15.236.95.99
   port: 22222
   type: trojan
@@ -1224,49 +1247,19 @@ proxies:
   sni: trj.rollingnext.co.uk
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 171 TJN"
-  server: hnm.xiaohouzi.club
-  port: 47552
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: '%24douk01.xiaohouzi.club'
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1E9 ID 172 TJN"
+- name: "\U0001F1EE\U0001F1E9 ID 174 TJN"
   server: asia1.oceis.net
   port: 443
   type: trojan
   password: 94660920-baaa-11ed-b236-205c6d5f5d78
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 173 TJN"
-  server: 185.212.200.76
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 174 TJN"
-  server: hn.xiaohouzi.club
-  port: 18456
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 175 TJN"
-  server: gz01.xiaohouzi.club
-  port: 51058
+  server: hn.xiaohouzi.club
+  port: 51054
   type: trojan
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: gz01.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 176 TJN"
-  server: hnm.xiaohouzi.club
-  port: 17105
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: '%24tukey.xiaohouzi.club'
+  sni: hn.xiaohouzi.club
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -1429,26 +1422,25 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 154 TJN"
   - "\U0001F1E8\U0001F1F3 CN 155 TJN"
   - "\U0001F1E8\U0001F1F3 CN 156 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 SSS"
   - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 159 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
   - "\U0001F1E8\U0001F1F3 CN 160 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 161 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 161 TJN"
   - "\U0001F1E8\U0001F1F3 CN 162 TJN"
   - "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 164 SSS"
   - "\U0001F1E8\U0001F1F3 CN 165 TJN"
   - "\U0001F1E8\U0001F1F3 CN 166 TJN"
   - "\U0001F1E8\U0001F1F3 CN 167 TJN"
   - "\U0001F1E8\U0001F1F3 CN 168 TJN"
   - "\U0001F1E8\U0001F1F3 CN 169 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 170 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 TJN"
   - "\U0001F1E8\U0001F1F3 CN 171 TJN"
-  - "\U0001F1EE\U0001F1E9 ID 172 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 173 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 174 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 172 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 173 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 174 TJN"
   - "\U0001F1E8\U0001F1F3 CN 175 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 176 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1611,25 +1603,24 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 154 TJN"
   - "\U0001F1E8\U0001F1F3 CN 155 TJN"
   - "\U0001F1E8\U0001F1F3 CN 156 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 SSS"
   - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 159 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
   - "\U0001F1E8\U0001F1F3 CN 160 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 161 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 161 TJN"
   - "\U0001F1E8\U0001F1F3 CN 162 TJN"
   - "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 164 SSS"
   - "\U0001F1E8\U0001F1F3 CN 165 TJN"
   - "\U0001F1E8\U0001F1F3 CN 166 TJN"
   - "\U0001F1E8\U0001F1F3 CN 167 TJN"
   - "\U0001F1E8\U0001F1F3 CN 168 TJN"
   - "\U0001F1E8\U0001F1F3 CN 169 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 170 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 TJN"
   - "\U0001F1E8\U0001F1F3 CN 171 TJN"
-  - "\U0001F1EE\U0001F1E9 ID 172 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 173 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 174 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 172 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 173 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 174 TJN"
   - "\U0001F1E8\U0001F1F3 CN 175 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 176 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
