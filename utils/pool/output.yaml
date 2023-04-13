@@ -840,7 +840,7 @@ proxies:
   cipher: aes-256-gcm
 - name: "\U0001F1E8\U0001F1F3 CN 119 TJN"
   server: sa.steamdownload.top
-  port: 36654
+  port: 36652
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: dataus.steamdownload.top
@@ -848,7 +848,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 120 TJN"
   server: sa.steamdownload.top
-  port: 36654
+  port: 36653
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: dataus.steamdownload.top
@@ -856,46 +856,45 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 121 TJN"
   server: sa.steamdownload.top
-  port: 36652
+  port: 36651
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: dataus.steamdownload.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 122 TJN"
-  server: ca-m.fib-sys.xyz
-  port: 61916
+  server: 170.187.134.190
+  port: 8443
   type: trojan
-  password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 123 TJN"
-  server: as.steamdownload.top
-  port: 36614
+  server: v01.gutingting.com
+  port: 20224
   type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datahk.steamdownload.top
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v2usa01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 124 TJN"
-  server: as.steamdownload.top
-  port: 36615
+- name: "\U0001F1FA\U0001F1F8 US 124 TJN"
+  server: zzus01.gutingting.com
+  port: 20220
   type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datahk.steamdownload.top
+  password: 0fc33dd3-f50f-435c-adfe-4a6549a25295
+  sni: zzus01.gutingting.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 125 TJN"
-  server: as.steamdownload.top
-  port: 36616
-  type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datahk.steamdownload.top
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 125 SSS"
+  server: 14.29.124.168
+  port: 31046
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 126 TJN"
   server: as.steamdownload.top
-  port: 36612
+  port: 36615
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datahk.steamdownload.top
@@ -903,7 +902,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 127 TJN"
   server: as.steamdownload.top
-  port: 36611
+  port: 36612
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datahk.steamdownload.top
@@ -911,114 +910,160 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 128 TJN"
   server: as.steamdownload.top
-  port: 36615
+  port: 36613
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datahk.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 129 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 129 TJN"
+  server: as.steamdownload.top
+  port: 36616
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datahk.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 130 TJN"
+  server: as.steamdownload.top
+  port: 36614
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datahk.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 131 SSS"
   server: 180.101.193.226
   port: 10068
   type: ss
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 130 SSS"
-  server: 14.29.124.168
-  port: 24007
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 131 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 132 TJN"
-  server: 116.192.171.97
-  port: 8443
+  server: as.steamdownload.top
+  port: 36616
   type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datahk.steamdownload.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 133 TJN"
-  server: 116.192.171.97
-  port: 8443
+  server: as.steamdownload.top
+  port: 36612
   type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datahk.steamdownload.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 134 TJN"
-  server: iplc-enter-tw-xe.fib-sys.xyz
-  port: 11451
+  server: v02.gutingting.com
+  port: 30038
   type: trojan
-  password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc
-  sni: tw-xe.fib-sys.xyz
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: v2hgc02.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 135 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 135 SSS"
+  server: gzdx.jcnode.top
+  port: 40001
+  type: ss
+  cipher: aes-256-gcm
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 136 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
+  server: gzyd.jcnode.top
+  port: 20002
   type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
+  password: c43b412e-926f-40ff-a222-52adeb973dcf
+  sni: hk01.ckcloud.info
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 137 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 138 TJN"
   server: as.steamdownload.top
-  port: 36621
+  port: 36623
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datatw.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 139 SSS"
-  server: 13.215.183.79
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: doub.io
+- name: "\U0001F1E8\U0001F1F3 CN 138 TJN"
+  server: 116.192.171.97
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 139 TJN"
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 140 TJN"
-  server: as.steamdownload.top
-  port: 36643
+  server: 116.192.171.97
+  port: 8443
   type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datasg.steamdownload.top
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 141 TJN"
-  server: as.steamdownload.top
-  port: 36644
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
   type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datasg.steamdownload.top
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 142 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 142 TJN"
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 143 SSS"
+  server: 14.29.124.168
+  port: 24002
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 144 TJN"
+  server: 106.225.132.4
+  port: 19217
+  type: trojan
+  password: 0b86d368-f585-3c89-b8b5-30630f54cf15
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 145 TJN"
+  server: 116.192.171.97
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 146 TJN"
+  server: v02.gutingting.com
+  port: 30003
+  type: trojan
+  password: 43355589-c8a8-44d2-9790-533fdca349d6
+  sni: v2tw01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 147 SSS"
+  server: gzdx.jcnode.top
+  port: 42001
+  type: ss
+  cipher: aes-256-gcm
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 148 TJN"
   server: kt.p.mkitty.top
   port: 443
   type: trojan
@@ -1026,7 +1071,15 @@ proxies:
   sni: kt.p.mkitty.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 143 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 149 TJN"
+  server: as.steamdownload.top
+  port: 36641
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datasg.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 150 TJN"
   server: as.steamdownload.top
   port: 36642
   type: trojan
@@ -1034,37 +1087,93 @@ proxies:
   sni: datasg.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 144 SSS"
-  server: 43.207.160.88
+- name: "\U0001F1E8\U0001F1F3 CN 151 TJN"
+  server: as.steamdownload.top
+  port: 36644
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datasg.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 152 TJN"
+  server: as.steamdownload.top
+  port: 36644
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datasg.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 153 SSS"
+  server: 13.215.183.14
   port: 443
   type: ss
   cipher: aes-256-cfb
-  password: doub.io
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 145 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 154 TJN"
+  server: v01.gutingting.com
+  port: 20222
+  type: trojan
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v2sg01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 155 SSS"
+  server: gzyd.jcnode.top
+  port: 43001
+  type: ss
+  cipher: aes-256-gcm
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  server: v02.gutingting.com
+  port: 30059
+  type: trojan
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v2sggpt01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 157 TJN"
+  server: v02.gutingting.com
+  port: 30049
+  type: trojan
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: v2sg02.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 158 TJN"
+  server: gzdx.jcnode.top
+  port: 43002
+  type: trojan
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
+  sni: sg01.ckcloud.info
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 159 TJN"
   server: sa.steamdownload.top
-  port: 36634
+  port: 36631
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datajp.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 146 TJN"
-  server: 183.213.200.206
-  port: 28101
-  type: trojan
-  password: P2bgpq
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 147 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 160 TJN"
   server: sa.steamdownload.top
-  port: 36634
+  port: 36632
   type: trojan
   password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
   sni: datajp.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 148 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 161 TJN"
+  server: sa.steamdownload.top
+  port: 36633
+  type: trojan
+  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
+  sni: datajp.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 162 TJN"
   server: 43.207.172.9
   port: 443
   type: trojan
@@ -1072,7 +1181,14 @@ proxies:
   sni: 20-212-60-88.nhost.00cdn.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 149 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 163 TJN"
+  server: 183.213.200.206
+  port: 28101
+  type: trojan
+  password: P2bgpq
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 164 TJN"
   server: sa.steamdownload.top
   port: 36634
   type: trojan
@@ -1080,15 +1196,52 @@ proxies:
   sni: datajp.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 150 TJN"
-  server: sa.steamdownload.top
-  port: 36634
+- name: "\U0001F1EF\U0001F1F5 JP 165 SSS"
+  server: 43.207.205.208
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 166 SSS"
+  server: 43.207.160.88
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: doub.io
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 167 TJN"
+  server: v02.gutingting.com
+  port: 30054
   type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datajp.steamdownload.top
+  password: 0fc33dd3-f50f-435c-adfe-4a6549a25295
+  sni: v1jp01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 151 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 168 TJN"
+  server: v01.gutingting.com
+  port: 20220
+  type: trojan
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: v2jp01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 169 TJN"
+  server: zzjp01.gutingting.com
+  port: 20220
+  type: trojan
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: zzjp01.gutingting.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 170 SSS"
+  server: gzdx.jcnode.top
+  port: 41000
+  type: ss
+  cipher: aes-256-gcm
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 171 TJN"
   server: sa.steamdownload.top
   port: 36712
   type: trojan
@@ -1096,7 +1249,14 @@ proxies:
   sni: dataar.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 152 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 172 SSS"
+  server: gzdx01.jcnode.top
+  port: 49001
+  type: ss
+  cipher: aes-256-gcm
+  password: 0ef54dd8-a817-4a28-ba05-9fb66aff2e4a
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 173 TJN"
   server: sa.steamdownload.top
   port: 36714
   type: trojan
@@ -1104,14 +1264,7 @@ proxies:
   sni: dataca.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 153 SSS"
-  server: 89.163.140.153
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 154 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 174 TJN"
   server: as.steamdownload.top
   port: 36716
   type: trojan
@@ -1119,28 +1272,51 @@ proxies:
   sni: datade.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1EE FI 155 SSS"
+- name: "\U0001F1E9\U0001F1EA DE 175 SSS"
+  server: 89.163.140.153
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 176 SSS"
+  server: hbcu.lele233.top
+  port: 16157
+  type: ss
+  cipher: aes-256-gcm
+  password: c43b412e-926f-40ff-a222-52adeb973dcf
+  udp: true
+- name: "\U0001F1EB\U0001F1EE FI 177 SSS"
   server: 135.181.172.225
   port: 30705
   type: ss
   cipher: aes-256-gcm
   password: R2Lp3a4tgj
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 156 SSS"
-  server: 212.102.53.197
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+- name: "\U0001F1E8\U0001F1F3 CN 178 TJN"
+  server: v01.gutingting.com
+  port: 20226
+  type: trojan
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v2uk01.fuqiangren.com
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 157 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  server: gzyd.jcnode.top
+  port: 26000
+  type: trojan
+  password: c43b412e-926f-40ff-a222-52adeb973dcf
+  sni: uk01.ckcloud.info
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 180 TJN"
   server: 152.70.74.66
   port: 443
   type: trojan
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 158 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 181 TJN"
   server: as.steamdownload.top
   port: 36715
   type: trojan
@@ -1148,43 +1324,14 @@ proxies:
   sni: datain.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 159 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 182 SSS"
   server: gzdx.jcnode.top
-  port: 49000
+  port: 25001
   type: ss
   cipher: aes-256-gcm
-  password: d569dace-b46f-482b-a067-7596dc897533
+  password: c43b412e-926f-40ff-a222-52adeb973dcf
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 160 SSS"
-  server: 131.186.21.62
-  port: 4433
-  type: ss
-  cipher: aes-256-gcm
-  password: yy595721
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 161 SSS"
-  server: 43.201.60.60
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 162 SSS"
-  server: 43.201.86.41
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  server: sa.steamdownload.top
-  port: 36713
-  type: trojan
-  password: 7d4a43a2-1d9e-4307-ba3c-586a87272cce
-  sni: datakr.steamdownload.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 164 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 183 TJN"
   server: op.en.usdeth.top
   port: 718
   type: trojan
@@ -1192,7 +1339,7 @@ proxies:
   sni: op.en.usdeth.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 165 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 184 TJN"
   server: jk.jkk.mkitty.top
   port: 4433
   type: trojan
@@ -1200,19 +1347,80 @@ proxies:
   sni: jk.jkk.mkitty.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 166 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 185 SSS"
+  server: 131.186.21.62
+  port: 4433
+  type: ss
+  cipher: aes-256-gcm
+  password: yy595721
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  server: 43.201.60.60
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 187 SSS"
   server: 43.200.6.15
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 167 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 188 TJN"
+  server: v01.gutingting.com
+  port: 30056
+  type: trojan
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v1kr01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 189 TJN"
+  server: v02.gutingting.com
+  port: 30057
+  type: trojan
+  password: 43355589-c8a8-44d2-9790-533fdca349d6
+  sni: v1kr02.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  server: 43.201.86.41
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 191 TJN"
+  server: v02.gutingting.com
+  port: 30053
+  type: trojan
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: v2phl01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  server: v02.gutingting.com
+  port: 30052
+  type: trojan
+  password: 6f145d43-8631-47fc-963f-82c7ea80d17b
+  sni: v2th01.fuqiangren.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 VN 193 SSS"
   server: 103.163.218.2
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 194 TJN"
+  server: v02.gutingting.com
+  port: 30051
+  type: trojan
+  password: 2d221b47-9852-4ead-a619-647bcd956409
+  sni: v2vn01.fuqiangren.com
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: automatic
@@ -1341,50 +1549,77 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 121 TJN"
   - "\U0001F1FA\U0001F1F8 US 122 TJN"
   - "\U0001F1E8\U0001F1F3 CN 123 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 124 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 125 TJN"
+  - "\U0001F1FA\U0001F1F8 US 124 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 125 SSS"
   - "\U0001F1E8\U0001F1F3 CN 126 TJN"
   - "\U0001F1E8\U0001F1F3 CN 127 TJN"
   - "\U0001F1E8\U0001F1F3 CN 128 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 129 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 130 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 131 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 129 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 130 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 131 SSS"
   - "\U0001F1E8\U0001F1F3 CN 132 TJN"
   - "\U0001F1E8\U0001F1F3 CN 133 TJN"
   - "\U0001F1E8\U0001F1F3 CN 134 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 135 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 135 SSS"
   - "\U0001F1E8\U0001F1F3 CN 136 TJN"
   - "\U0001F1E8\U0001F1F3 CN 137 TJN"
   - "\U0001F1E8\U0001F1F3 CN 138 TJN"
-  - "\U0001F1F8\U0001F1EC SG 139 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 139 TJN"
   - "\U0001F1E8\U0001F1F3 CN 140 TJN"
   - "\U0001F1E8\U0001F1F3 CN 141 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 142 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 143 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 144 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 142 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 143 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 144 TJN"
   - "\U0001F1E8\U0001F1F3 CN 145 TJN"
   - "\U0001F1E8\U0001F1F3 CN 146 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 147 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 148 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 147 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 148 TJN"
   - "\U0001F1E8\U0001F1F3 CN 149 TJN"
   - "\U0001F1E8\U0001F1F3 CN 150 TJN"
   - "\U0001F1E8\U0001F1F3 CN 151 TJN"
   - "\U0001F1E8\U0001F1F3 CN 152 TJN"
-  - "\U0001F1E9\U0001F1EA DE 153 SSS"
+  - "\U0001F1F8\U0001F1EC SG 153 SSS"
   - "\U0001F1E8\U0001F1F3 CN 154 TJN"
-  - "\U0001F1EB\U0001F1EE FI 155 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 156 SSS"
-  - "\U0001F1EE\U0001F1F3 IN 157 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 155 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
   - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 159 SSS"
-  - "\U0001F1FA\U0001F1F8 US 160 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 161 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 162 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 160 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 161 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 162 TJN"
   - "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 164 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 165 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 166 SSS"
-  - "\U0001F1FB\U0001F1F3 VN 167 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 165 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 166 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 167 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 168 TJN"
+  - "\U0001F1FA\U0001F1F8 US 169 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 171 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 172 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 173 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 174 TJN"
+  - "\U0001F1E9\U0001F1EA DE 175 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 176 SSS"
+  - "\U0001F1EB\U0001F1EE FI 177 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 178 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 180 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 181 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 182 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 183 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 184 TJN"
+  - "\U0001F1FA\U0001F1F8 US 185 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 187 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 188 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 189 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 191 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 193 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 194 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1514,49 +1749,76 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 121 TJN"
   - "\U0001F1FA\U0001F1F8 US 122 TJN"
   - "\U0001F1E8\U0001F1F3 CN 123 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 124 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 125 TJN"
+  - "\U0001F1FA\U0001F1F8 US 124 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 125 SSS"
   - "\U0001F1E8\U0001F1F3 CN 126 TJN"
   - "\U0001F1E8\U0001F1F3 CN 127 TJN"
   - "\U0001F1E8\U0001F1F3 CN 128 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 129 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 130 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 131 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 129 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 130 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 131 SSS"
   - "\U0001F1E8\U0001F1F3 CN 132 TJN"
   - "\U0001F1E8\U0001F1F3 CN 133 TJN"
   - "\U0001F1E8\U0001F1F3 CN 134 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 135 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 135 SSS"
   - "\U0001F1E8\U0001F1F3 CN 136 TJN"
   - "\U0001F1E8\U0001F1F3 CN 137 TJN"
   - "\U0001F1E8\U0001F1F3 CN 138 TJN"
-  - "\U0001F1F8\U0001F1EC SG 139 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 139 TJN"
   - "\U0001F1E8\U0001F1F3 CN 140 TJN"
   - "\U0001F1E8\U0001F1F3 CN 141 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 142 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 143 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 144 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 142 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 143 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 144 TJN"
   - "\U0001F1E8\U0001F1F3 CN 145 TJN"
   - "\U0001F1E8\U0001F1F3 CN 146 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 147 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 148 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 147 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 148 TJN"
   - "\U0001F1E8\U0001F1F3 CN 149 TJN"
   - "\U0001F1E8\U0001F1F3 CN 150 TJN"
   - "\U0001F1E8\U0001F1F3 CN 151 TJN"
   - "\U0001F1E8\U0001F1F3 CN 152 TJN"
-  - "\U0001F1E9\U0001F1EA DE 153 SSS"
+  - "\U0001F1F8\U0001F1EC SG 153 SSS"
   - "\U0001F1E8\U0001F1F3 CN 154 TJN"
-  - "\U0001F1EB\U0001F1EE FI 155 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 156 SSS"
-  - "\U0001F1EE\U0001F1F3 IN 157 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 155 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
   - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 159 SSS"
-  - "\U0001F1FA\U0001F1F8 US 160 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 161 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 162 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 160 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 161 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 162 TJN"
   - "\U0001F1E8\U0001F1F3 CN 163 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 164 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 165 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 166 SSS"
-  - "\U0001F1FB\U0001F1F3 VN 167 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 165 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 166 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 167 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 168 TJN"
+  - "\U0001F1FA\U0001F1F8 US 169 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 171 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 172 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 173 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 174 TJN"
+  - "\U0001F1E9\U0001F1EA DE 175 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 176 SSS"
+  - "\U0001F1EB\U0001F1EE FI 177 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 178 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 180 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 181 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 182 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 183 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 184 TJN"
+  - "\U0001F1FA\U0001F1F8 US 185 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 187 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 188 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 189 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 191 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 193 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 194 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
