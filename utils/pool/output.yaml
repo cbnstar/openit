@@ -180,7 +180,7 @@ proxies:
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: "\U0001F1F8\U0001F1EC SG 27 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 27 TJN"
   server: kr.stablize.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -1008,7 +1008,7 @@ proxies:
   password: ed5a1734-aa35-4c79-bda2-6bf319c66cf7
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 142 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 142 TJN"
   server: vpnhat.stablize.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -1256,33 +1256,12 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 175 SSS"
-  server: 14.29.124.168
-  port: 24001
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 176 SSS"
-  server: 43.206.212.112
+- name: "\U0001F1EF\U0001F1F5 JP 175 SSS"
+  server: 43.207.199.196
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 177 SSS"
-  server: 43.206.224.162
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1EB\U0001F1EE FI 178 SSS"
-  server: 37.143.129.230
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
   udp: true
 proxy-groups:
 - name: automatic
@@ -1314,7 +1293,7 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 24 SSS"
   - "\U0001F1EC\U0001F1E7 GB 25 SSS"
   - "\U0001F1EC\U0001F1E7 GB 26 SSS"
-  - "\U0001F1F8\U0001F1EC SG 27 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 TJN"
   - "\U0001F1EF\U0001F1F5 JP 28 TJN"
   - "\U0001F1EF\U0001F1F5 JP 29 SSS"
   - "\U0001F1EF\U0001F1F5 JP 30 SSS"
@@ -1429,7 +1408,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 139 TJN"
   - "\U0001F1FA\U0001F1F8 US 140 TJN"
   - "\U0001F1FA\U0001F1F8 US 141 TJN"
-  - "\U0001F1F8\U0001F1EC SG 142 TJN"
+  - "\U0001F1FA\U0001F1F8 US 142 TJN"
   - "\U0001F1EE\U0001F1F3 IN 143 TJN"
   - "\U0001F1FA\U0001F1F8 US 144 TJN"
   - "\U0001F1EF\U0001F1F5 JP 145 TJN"
@@ -1462,10 +1441,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 172 SSS"
   - "\U0001F1FA\U0001F1F8 US 173 SSS"
   - "\U0001F1E8\U0001F1F3 CN 174 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 175 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 176 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 177 SSS"
-  - "\U0001F1EB\U0001F1EE FI 178 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 175 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1498,7 +1474,7 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 24 SSS"
   - "\U0001F1EC\U0001F1E7 GB 25 SSS"
   - "\U0001F1EC\U0001F1E7 GB 26 SSS"
-  - "\U0001F1F8\U0001F1EC SG 27 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 TJN"
   - "\U0001F1EF\U0001F1F5 JP 28 TJN"
   - "\U0001F1EF\U0001F1F5 JP 29 SSS"
   - "\U0001F1EF\U0001F1F5 JP 30 SSS"
@@ -1613,7 +1589,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 139 TJN"
   - "\U0001F1FA\U0001F1F8 US 140 TJN"
   - "\U0001F1FA\U0001F1F8 US 141 TJN"
-  - "\U0001F1F8\U0001F1EC SG 142 TJN"
+  - "\U0001F1FA\U0001F1F8 US 142 TJN"
   - "\U0001F1EE\U0001F1F3 IN 143 TJN"
   - "\U0001F1FA\U0001F1F8 US 144 TJN"
   - "\U0001F1EF\U0001F1F5 JP 145 TJN"
@@ -1646,9 +1622,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 172 SSS"
   - "\U0001F1FA\U0001F1F8 US 173 SSS"
   - "\U0001F1E8\U0001F1F3 CN 174 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 175 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 176 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 177 SSS"
-  - "\U0001F1EB\U0001F1EE FI 178 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 175 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
